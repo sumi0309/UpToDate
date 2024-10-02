@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Up-To-Date (UTD).props" />
+</Project>

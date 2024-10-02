@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Up-To-Date (UTD).props" />
+</Project>

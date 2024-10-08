@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Up-To-Date (UTD)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+361bcdcbe26dc15f9f14b83830f508ad8493f442")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09bfc8678f36bf285e7ab5cee562163b6546d823")]
 [assembly: System.Reflection.AssemblyProductAttribute("Up-To-Date (UTD)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Up-To-Date (UTD)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

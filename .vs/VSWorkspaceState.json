@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Up-To-Date (UTD)",
-    "\\Up-To-Date (UTD)\\Up-To-Date (UTD)"
+    "\\Up-To-Date (UTD)\\Up-To-Date (UTD)",
+    "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views",
+    "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Home"
   ],
-  "SelectedNode": "\\Up-To-Date (UTD)\\Up-To-Date (UTD).sln",
+  "SelectedNode": "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

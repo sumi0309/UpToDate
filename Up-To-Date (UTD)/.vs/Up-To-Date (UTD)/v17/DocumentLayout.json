@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\models\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Up-To-Date (UTD)\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T19:03:06.632Z",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Up-To-Date (UTD)\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T22:02:26.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Program.cs",
-              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Program.cs",
-              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Program.cs",
-              "RelativeToolTip": "Up-To-Date (UTD)\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAArwCoAAAAAAAAAAAAAAA==",
+              "Title": "News.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Models\\News.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Models\\News.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Models\\News.cs",
+              "RelativeToolTip": "Up-To-Date (UTD)\\Models\\News.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T18:42:51.503Z",
+              "WhenOpened": "2024-10-08T22:00:29.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Up-To-Date (UTD)\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:48:16.744Z",
               "EditorCaption": ""
             }
           ]

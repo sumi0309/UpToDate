@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Up_To_Date__UTD_.Models;
 
 namespace Up_To_Date__UTD_.Data
 {
@@ -9,5 +10,6 @@ namespace Up_To_Date__UTD_.Data
             : base(options)
         {
         }
+        public DbSet<Up_To_Date__UTD_.Models.News> News { get; set; } = default!;
     }
 }

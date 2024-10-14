@@ -25,6 +25,18 @@ namespace Up_To_Date__UTD_.Controllers
             return View(await _context.News.ToListAsync());
         }
 
+        //News/ShowSeachForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
+        //POST: News/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
+        {
+            return View("Index", await _context.News.Where( j => j.NewsHeading.Contains(SearchPhrase)).ToListAsync());
+        }
+
         // GET: News/Details/5
         public async Task<IActionResult> Details(int? id)
         {

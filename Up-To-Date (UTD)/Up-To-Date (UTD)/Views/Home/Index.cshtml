@@ -1,7 +1,111 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Welcome to UTD - Up-To-Date News Aggregator";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #eee; /* Application background color */
+        }
+
+        .header {
+            background-color: #DCDCDC; /* Alice Blue for header */
+            color: #333; /* Darker text for contrast */
+            padding: 20px 0;
+        }
+
+        .card {
+            margin: 20px 0;
+        }
+
+        .expandable-content {
+            display: none;
+            margin-top: 15px;
+        }
+
+        .btn-expand {
+            background-color: #DCDCDC; /* Alice Blue for buttons */
+            color: #333; /* Darker text for contrast */
+            border: 2px solid #333; /* Dark border for better visibility */
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+            .btn-expand:hover {
+                background-color: #ADD8E6; /* Light Blue on hover */
+                color: white; /* White text on hover */
+            }
+    </style>
+</head>
+<body>
+    <header class="header text-center">
+        <h1 class="display-4">Welcome to UTD</h1>
+        <p class="lead">Stay updated with the latest news from around the world.</p>
+    </header>
+
+    <div class="container mt-5">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h2 class="text-primary">Latest News</h2>
+                <p class="mb-2">Get the latest updates in technology, sports, politics, and more.</p>
+                <button class="btn btn-expand" onclick="toggleContent('newsContent1')">Expand News Section</button>
+                <div id="newsContent1" class="expandable-content">
+                    <ul class="list-group mt-3">
+                        <li class="list-group-item">Tech Giants Release New Products - Explore the latest innovations in tech.</li>
+                        <li class="list-group-item">Sports Updates - Catch up with your favorite teams and players.</li>
+                        <li class="list-group-item">Political Insights - Understand the latest developments in politics.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h2 class="text-primary">Trending Topics</h2>
+                <p class="mb-2">Discover what's trending in various categories.</p>
+                <button class="btn btn-expand" onclick="toggleContent('trendingContent1')">Expand Trending Section</button>
+                <div id="trendingContent1" class="expandable-content">
+                    <ul class="list-group mt-3">
+                        <li class="list-group-item">Artificial Intelligence - Latest advancements and applications.</li>
+                        <li class="list-group-item">Climate Change - Ongoing discussions and solutions.</li>
+                        <li class="list-group-item">Health and Wellness - Tips for a healthier lifestyle.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h2 class="text-primary">User Contributions</h2>
+                <p class="mb-2">See the latest articles contributed by our users.</p>
+                <button class="btn btn-expand" onclick="toggleContent('contributionsContent1')">Expand Contributions Section</button>
+                <div id="contributionsContent1" class="expandable-content">
+                    <ul class="list-group mt-3">
+                        <li class="list-group-item">User Article 1 - Insights on global warming.</li>
+                        <li class="list-group-item">User Article 2 - Innovations in health technology.</li>
+                        <li class="list-group-item">User Article 3 - Sports event analysis.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleContent(contentId) {
+            var content = document.getElementById(contentId);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

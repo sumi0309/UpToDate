@@ -1,6 +1,52 @@
-﻿ @{
-     ViewData["Title"] = "Privacy Policy";
- }
-<h1>@ViewData["Title"]</h1>
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">@ViewData["Title"]</h1>
+        <p class="lead">Your privacy is important to us.</p>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h2 class="card-title mb-3">Information We Collect</h2>
+            <ul class="list-group mb-3">
+                <li class="list-group-item"><strong>Personal Information:</strong> We collect information like your name, email address, and contact details when you register on our site or use our services.</li>
+                <li class="list-group-item"><strong>Usage Data:</strong> We collect data on how you interact with our site, such as pages visited, time spent, and other user activities.</li>
+                <li class="list-group-item"><strong>Cookies:</strong> We use cookies to improve user experience, analyze traffic, and customize content.</li>
+            </ul>
+
+            <h2 class="card-title mb-3">How We Use Your Information</h2>
+            <ul class="list-group mb-3">
+                <li class="list-group-item">To provide and maintain our services.</li>
+                <li class="list-group-item">To notify you about changes to our services or policies.</li>
+                <li class="list-group-item">To provide customer support and assistance.</li>
+                <li class="list-group-item">To monitor the usage of our services and detect issues.</li>
+            </ul>
+
+            <h2 class="card-title mb-3">Security of Your Data</h2>
+            <p>We are committed to ensuring that your information is secure. To prevent unauthorized access or disclosure, we have put in place suitable physical, electronic, and managerial procedures to safeguard and secure the information we collect.</p>
+
+            <h2 class="card-title mb-3">Your Rights</h2>
+            <p>You have the right to access, correct, or delete the personal information we hold about you. If you wish to exercise these rights, please contact us.</p>
+
+            <h2 class="card-title mb-3">Changes to This Policy</h2>
+            <p>We may update our privacy policy from time to time. You will be notified of any changes by updating the "last updated" date at the top of this page.</p>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="card-title mb-3">Contact Us</h2>
+            <p>If you have any questions about this privacy policy, please contact us:</p>
+            <ul class="list-unstyled">
+                <li><strong>Email:</strong> <a href="mailto:sumi0309@umd.edu">support@utd.com</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>

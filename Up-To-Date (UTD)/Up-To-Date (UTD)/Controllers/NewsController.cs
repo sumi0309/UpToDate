@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Up_To_Date__UTD_.Data;
 using Up_To_Date__UTD_.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Up_To_Date__UTD_.Controllers
 {
@@ -56,13 +57,14 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // GET: News/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
         // POST: News/Create
-
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,NewsHeading,NewsDescription")] News news)
@@ -77,6 +79,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // GET: News/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -93,7 +96,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // POST: News/Edit/5
-        
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,NewsHeading,NewsDescription")] News news)
@@ -127,6 +130,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // GET: News/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -145,6 +149,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // POST: News/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

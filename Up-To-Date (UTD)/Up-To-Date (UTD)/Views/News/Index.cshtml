@@ -19,6 +19,17 @@
         </tr>
     </thead>
     <tbody>
+
+        @if (ViewBag.Message != null)
+        {
+            <div class="alert alert-warning">
+                @ViewBag.Message
+            </div>
+            <div>
+                <a asp-controller="News" asp-action="ShowSearchForm" class="btn btn-secondary btn-sm">search again</a>
+            </div>
+        }
+
 @foreach (var item in Model) {
         <tr class="d-flex justify-content-between">
             <td>
@@ -33,3 +44,22 @@
 }
     </tbody>
 </table>
+
+<div class="d-flex justify-content-between pagination">
+    @if (ViewBag.CurrentPage > 1)
+    {
+            <a asp-action="Index" asp-route-pageNumber="@(ViewBag.CurrentPage - 1)" class="btn btn-outline-secondary">Previous</a>
+    }
+
+    @for (var i = 1; i <= ViewBag.TotalPages; i++)
+    {
+            <a asp-action="Index" asp-route-pageNumber="@i" class="btn @((i == ViewBag.CurrentPage) ? "btn-secondary" : "btn-outline-secondary")">
+            @i
+            </a>
+    }
+
+    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+    {
+            <a asp-action="Index" asp-route-pageNumber="@(ViewBag.CurrentPage + 1)" class="btn btn-outline-secondary">Next</a>
+    }
+</div>

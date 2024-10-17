@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Up_To_Date__UTD_.Models.Suggestion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Suggestions</h2>
+
+<ul>
+    @foreach (var suggestion in Model)
+    {
+        <li>@suggestion.Content (@suggestion.DatePosted.ToString("g"))</li>
+    }
+</ul>
+
+<hr />
+
+<!-- Suggestion Form -->
+<h4>Post a Suggestion</h4>
+<form asp-action="Create" method="post">
+    <div>
+        <textarea name="Content" placeholder="Enter your suggestion here.." required></textarea>
+    </div>
+    <button type="submit">Post Suggestion</button>
+</form>

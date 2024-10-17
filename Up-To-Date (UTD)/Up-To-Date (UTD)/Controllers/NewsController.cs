@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Up_To_Date__UTD_.Data;
 using Up_To_Date__UTD_.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Up_To_Date__UTD_.Controllers
 {
@@ -21,9 +22,21 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // GET: News
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pageNumber = 1, int pageSize = 5)
         {
-            return View(await _context.News.ToListAsync());
+            var totalNewsCount = await _context.News.CountAsync();
+            var totalPages = (int)Math.Ceiling(totalNewsCount / (double)pageSize);
+
+            var newsItems = await _context.News
+                .OrderBy(n => n.Id) 
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            ViewBag.TotalPages = totalPages;
+            ViewBag.CurrentPage = pageNumber;
+
+            return View(newsItems);
         }
 
         //News/ShowSeachForm
@@ -34,8 +47,13 @@ namespace Up_To_Date__UTD_.Controllers
 
         //POST: News/ShowSearchResults
         public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
-        {
-            return View("Index", await _context.News.Where( j => j.NewsHeading.Contains(SearchPhrase)).ToListAsync());
+        {  
+            var searchResults = await _context.News.Where(j => j.NewsHeading.Contains(SearchPhrase)).ToListAsync();
+            if (searchResults == null || searchResults.Count == 0)
+            {
+                ViewBag.Message = "No search results found!";
+            }
+            return View("Index", searchResults);
         }
 
         // GET: News/Details/5

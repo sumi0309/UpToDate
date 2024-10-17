@@ -5,10 +5,8 @@
         public int Id { get; set; }
         public string NewsHeading { get; set; }
         public string NewsDescription { get; set; }
-
         public News()
         {
-
         }
 
     }

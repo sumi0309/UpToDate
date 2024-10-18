@@ -82,7 +82,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // POST: News/Create
-        [Authorize]
+        [Authorize(Roles ="Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,NewsHeading,NewsDescription")] News news)
@@ -114,7 +114,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // POST: News/Edit
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Editor")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,NewsHeading,NewsDescription")] News news)

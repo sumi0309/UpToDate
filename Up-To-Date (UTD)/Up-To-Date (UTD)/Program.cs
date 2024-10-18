@@ -20,11 +20,19 @@ using (var scope = app.Services.CreateScope())
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
     string adminRole = "Admin";
+    string editorRole = "Editor";
 
     if (!await roleManager.RoleExistsAsync(adminRole))
     {
         var role = new IdentityRole(adminRole);
         role.NormalizedName = adminRole.ToUpper();
+        await roleManager.CreateAsync(role);
+    }
+
+    if (!await roleManager.RoleExistsAsync(editorRole))
+    {
+        var role = new IdentityRole(editorRole);
+        role.NormalizedName = editorRole.ToUpper();
         await roleManager.CreateAsync(role);
     }
 }
@@ -46,13 +54,18 @@ using (var scope = app.Services.CreateScope())
 
     
     string adminEmail = "sumi0309@umd.edu";
-
+    string editorEmail = "sumiranjaiswal09@gmail.com";
     
     var adminUser = await userManager.FindByEmailAsync(adminEmail);
+    var editorUser = await userManager.FindByEmailAsync(editorEmail);
    
     if (!await userManager.IsInRoleAsync(adminUser, "Admin"))
     {
         await userManager.AddToRoleAsync(adminUser, "Admin");
+    }
+    if (!await userManager.IsInRoleAsync(editorUser, "Editor"))
+    {
+        await userManager.AddToRoleAsync(editorUser, "Editor");
     }
 }
 

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Article>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Articles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h1>Articles</h1>
+            <a asp-action="Create" class="btn btn-light btn-outline-dark">Add New Article</a>
+        </div>
+
+        <table class="table table-hover table-bordered shadow-sm">
+            <thead class="thead-dark">
+                <tr>
+                    <th style="width: 25%;">Author</th>
+                    <th style="width: 65%;">Title</th>
+                    <th style="width: 10%;">File</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var article in Model)
+                {
+                    <tr>
+                        <td>@article.Title</td>
+                        <td>@article.Content</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(article.FilePath))
+                            {
+                                <a href="@article.FilePath" class="btn btn-outline-info btn-sm">Download</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

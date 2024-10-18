@@ -6,8 +6,9 @@
     "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views",
     "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Home",
     "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\News",
+    "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Shared",
     "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Suggestions"
   ],
-  "SelectedNode": "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Suggestions\\Index.cshtml",
+  "SelectedNode": "\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

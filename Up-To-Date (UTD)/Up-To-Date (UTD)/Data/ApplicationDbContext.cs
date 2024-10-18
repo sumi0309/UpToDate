@@ -12,5 +12,7 @@ namespace Up_To_Date__UTD_.Data
         }
         public DbSet<Up_To_Date__UTD_.Models.News> News { get; set; } = default!;
         public DbSet<Suggestion> Suggestions { get; set; }
+
+        public DbSet<Article> Articles { get; set; }
     }
 }

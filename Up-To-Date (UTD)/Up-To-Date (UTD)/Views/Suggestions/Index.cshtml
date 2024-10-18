@@ -4,22 +4,43 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>Suggestions</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Suggestions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4 text-center">Suggestions</h2>
 
-<ul>
-    @foreach (var suggestion in Model)
-    {
-        <li>@suggestion.Content (@suggestion.DatePosted.ToString("g"))</li>
-    }
-</ul>
+        <ul class="list-group mb-4">
+            @foreach (var suggestion in Model)
+            {
+                <li class="list-group-item" style="background-color:rgb(255, 255, 248); border-color:rgb(169,169,169); border-width:1.5px">
+                    @suggestion.Content
+                    <span class="text-muted" style="font-size: 0.9em;">(@suggestion.DatePosted.ToString("g"))</span>
+                </li>
+            }
+        </ul>
 
-<hr />
+        <hr />
 
-<!-- Suggestion Form -->
-<h4>Post a Suggestion</h4>
-<form asp-action="Create" method="post">
-    <div>
-        <textarea name="Content" placeholder="Enter your suggestion here.." required></textarea>
+        <!-- Suggestion Form -->
+        <h4>Post a Suggestion</h4>
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <textarea name="Content" class="form-control" placeholder="Enter your suggestion here.." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Post Suggestion</button>
+        </form>
     </div>
-    <button type="submit">Post Suggestion</button>
-</form>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

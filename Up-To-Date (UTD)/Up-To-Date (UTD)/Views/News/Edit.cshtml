@@ -1,39 +1,49 @@
 ﻿@model Up_To_Date__UTD_.Models.News
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit News";
 }
 
-<h1>Edit</h1>
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-5 text-secondary">@ViewData["Title"]</h1>
+        <p class="lead">Make changes to the news entry below.</p>
+    </div>
 
-<h4>News</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="NewsHeading" class="control-label"></label>
-                <input asp-for="NewsHeading" class="form-control" />
-                <span asp-validation-for="NewsHeading" class="text-danger"></span>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h4 class="text-secondary mb-4">Edit News</h4>
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-4">
+                            <label asp-for="NewsHeading" class="form-label fw-bold">Headline</label>
+                            <textarea asp-for="NewsHeading" class="form-control" rows="2" placeholder="Enter headline here..."></textarea>
+                            <span asp-validation-for="NewsHeading" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="NewsDescription" class="form-label fw-bold">Description</label>
+                            <textarea asp-for="NewsDescription" class="form-control" rows="5" placeholder="Enter description here..."></textarea>
+                            <span asp-validation-for="NewsDescription" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <button type="submit" class="btn btn-outline-primary px-4 py-2">Save</button>
+                            <a asp-action="Index" class="btn btn-outline-secondary px-4 py-2">Back to List</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="NewsDescription" class="control-label"></label>
-                <input asp-for="NewsDescription" class="form-control" />
-                <span asp-validation-for="NewsDescription" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

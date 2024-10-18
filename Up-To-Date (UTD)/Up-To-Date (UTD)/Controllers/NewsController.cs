@@ -56,7 +56,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View("Index", searchResults);
         }
 
-        // GET: News/Details/5
+        // GET: News/Details/
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -96,7 +96,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // GET: News/Edit/5
+        // GET: News/Edit
         [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -113,7 +113,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // POST: News/Edit/5
+        // POST: News/Edit
         [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -147,7 +147,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // GET: News/Delete/5
+        // GET: News/Delete
         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -166,7 +166,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // POST: News/Delete/5
+        // POST: News/Delete
         [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

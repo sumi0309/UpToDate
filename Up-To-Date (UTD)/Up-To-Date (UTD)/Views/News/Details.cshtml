@@ -1,30 +1,42 @@
 ﻿@model Up_To_Date__UTD_.Models.News
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "News Details";
 }
 
-<h1>Details</h1>
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-5 text-secondary">@ViewData["Title"]</h1>
+        <p class="lead">Here are the details of the news entry.</p>
+    </div>
 
-<div>
-    <h4>News</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NewsHeading)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NewsHeading)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NewsDescription)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NewsDescription)
-        </dd>
-    </dl>
+    <div class="card shadow-sm border-0">
+        <br>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold text-secondary">Headline:</dt>
+                <dd class="col-sm-9">
+                    <p class="mb-0">@Html.DisplayFor(model => model.NewsHeading)</p>
+                </dd>
+
+                <dt class="col-sm-3 fw-bold text-secondary">Description:</dt>
+                <dd class="col-sm-9">
+                    <p class="mb-0">@Html.DisplayFor(model => model.NewsDescription)</p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4 d-flex justify-content-between">
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-info px-4 py-2">
+            <i class="fas fa-edit"></i> Edit
+        </a>
+        <a asp-action="Index" class="btn btn-outline-secondary px-4 py-2">
+            <i class="fas fa-arrow-left"></i> Back to List
+        </a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

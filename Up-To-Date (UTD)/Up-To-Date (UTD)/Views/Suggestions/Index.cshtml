@@ -10,37 +10,65 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Suggestions</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" />
+    <style>
+        body {
+            background-color: #eee;
+        }
+
+        .suggestion-item {
+            background-color: rgb(255, 255, 248);
+            border: 1.5px solid rgb(169, 169, 169);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .suggestion-date {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+
+        .form-control {
+            height: 100px;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5">
-        <h2 class="mb-4 text-center">Suggestions</h2>
+        <h2 class="mb-4 text-light bg-secondary text-center" style="width: 50%; margin: 0 auto;">Suggestions</h2>
 
-        <ul class="list-group mb-4">
-            @foreach (var suggestion in Model)
-            {
-                <li class="list-group-item" style="background-color:rgb(255, 255, 248); border-color:rgb(169,169,169); border-width:1.5px">
-                    @suggestion.Content
-                    <span class="text-muted" style="font-size: 0.9em;">(@suggestion.DatePosted.ToString("g"))</span>
-                </li>
-            }
-        </ul>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Suggestion</th>
+                    <th>Time Posted</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var suggestion in Model)
+                {
+                    <tr>
+                        <td>@suggestion.Content</td>
+                        <td class="suggestion-date">@suggestion.DatePosted.ToString("g")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
 
         <hr />
 
-        <!-- Suggestion Form -->
         <h4>Post a Suggestion</h4>
         <form asp-action="Create" method="post">
             <div class="form-group">
-                <textarea name="Content" class="form-control" placeholder="Enter your suggestion here.." required></textarea>
+                <textarea name="Content" class="form-control" placeholder="Your suggestion goes here..." required></textarea>
             </div>
-            <button type="submit" class="btn btn-secondary">Post Suggestion</button>
+            <button type="submit" class="btn btn-outline-secondary mt-2">Post Suggestion</button>
         </form>
     </div>
 
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

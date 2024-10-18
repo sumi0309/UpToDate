@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\views\\news\\showsearchform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\views\\news\\showsearchform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShowSearchForm.cshtml",
-              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\News\\ShowSearchForm.cshtml",
-              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Views\\News\\ShowSearchForm.cshtml",
-              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\News\\ShowSearchForm.cshtml",
-              "RelativeToolTip": "Up-To-Date (UTD)\\Views\\News\\ShowSearchForm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T05:26:33.343Z",
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Controllers\\NewsController.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Up-To-Date (UTD)\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAYwKkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T16:32:13.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Program.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Program.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Program.cs",
+              "RelativeToolTip": "Up-To-Date (UTD)\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T16:12:52.856Z",
               "EditorCaption": ""
             }
           ]

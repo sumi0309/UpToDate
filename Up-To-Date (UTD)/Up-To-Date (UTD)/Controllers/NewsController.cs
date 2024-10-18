@@ -114,7 +114,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // POST: News/Edit/5
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,NewsHeading,NewsDescription")] News news)
@@ -167,7 +167,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // POST: News/Delete/5
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

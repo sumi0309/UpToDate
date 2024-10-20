@@ -12,9 +12,19 @@ namespace Up_To_Date__UTD_.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public ArticlesController(ApplicationDbContext context)
+        private readonly string _path;
+
+        public ArticlesController(ApplicationDbContext context, string? path=null)
         {
             _context = context;
+            if (path == null)
+            {
+                _path=Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+            }
+            else
+            {
+                _path = path;
+            }
         }
 
         public IActionResult Index()
@@ -35,7 +45,8 @@ namespace Up_To_Date__UTD_.Controllers
         {
                 if (file != null && file.Length > 0)
                 {
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", file.FileName);
+                var filePath = Path.Combine(_path, file.FileName);
+                //var filePath = "E:/Masters/ENPM680 Project/Up-To-Date (UTD)/Up-To-Date (UTD)/wwwroot/uploads/Resume - Sumiran Jaiswal.pdf";
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {
                         await file.CopyToAsync(stream);

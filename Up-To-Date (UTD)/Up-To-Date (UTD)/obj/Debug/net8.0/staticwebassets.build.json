@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aocielwpn2lIIbU6+Rx+Me3VHWzGcOyrnzYSbBjYmlg=",
+  "Hash": "fGJtbf5dIOTSq7yo1BAiyeS1pAItqu9BqFWqw0DkJF0=",
   "Source": "Up-To-Date (UTD)",
   "BasePath": "_content/Up-To-Date (UTD)",
   "Mode": "Default",
@@ -2333,44 +2333,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\Resume - Sumiran Jaiswal.docx",
-      "SourceId": "Up-To-Date (UTD)",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\",
-      "BasePath": "_content/Up-To-Date (UTD)",
-      "RelativePath": "uploads/Resume - Sumiran Jaiswal.docx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Resume - Sumiran Jaiswal.docx"
-    },
-    {
-      "Identity": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\Resume - Sumiran Jaiswal.pdf",
-      "SourceId": "Up-To-Date (UTD)",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\",
-      "BasePath": "_content/Up-To-Date (UTD)",
-      "RelativePath": "uploads/Resume - Sumiran Jaiswal.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Resume - Sumiran Jaiswal.pdf"
     }
   ]
 }

@@ -245,14 +245,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\Resume - Sumiran Jaiswal.docx",
-      "PackagePath": "staticwebassets\\uploads\\Resume - Sumiran Jaiswal.docx"
-    },
-    {
-      "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\Resume - Sumiran Jaiswal.pdf",
-      "PackagePath": "staticwebassets\\uploads\\Resume - Sumiran Jaiswal.pdf"
-    },
-    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Up-To-Date (UTD).Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

@@ -26,7 +26,7 @@ namespace Up_To_Date__UTD_.Tests.UnitTests.Controllers
         }
 
         [Fact]
-        public async Task Create_AddsArticleAndReturnsIndexViewSupreme()
+        public async Task Create_AddsArticleAndReturnsIndexView()
         {
             // Arrange
             var context = GetInMemoryDbContext();

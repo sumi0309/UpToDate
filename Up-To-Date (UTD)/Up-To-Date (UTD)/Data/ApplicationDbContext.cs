@@ -6,6 +6,7 @@ namespace Up_To_Date__UTD_.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
+        private readonly ApplicationDbContext _context;
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {

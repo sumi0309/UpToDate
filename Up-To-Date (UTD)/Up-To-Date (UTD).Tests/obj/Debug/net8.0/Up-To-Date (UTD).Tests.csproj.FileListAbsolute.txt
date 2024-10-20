@@ -1,9 +1,4 @@
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Up-To-Date (UTD).Tests
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.csproj.AssemblyReference.cache
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.GeneratedMSBuildEditorConfig.editorconfig
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.AssemblyInfoInputs.cache
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.AssemblyInfo.cs
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.csproj.CoreCompileInputs.cache
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\testhost.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Up-To-Date (UTD).deps.json
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Up-To-Date (UTD).runtimeconfig.json
@@ -48,6 +43,7 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
@@ -333,10 +329,14 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Up-To-Date (UTD).dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Up-To-Date (UTD).pdb
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.csproj.AssemblyReference.cache
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.AssemblyInfoInputs.cache
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.AssemblyInfo.cs
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.csproj.CoreCompileInputs.cache
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Da.E328E969.Up2Date
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\refint\Up-To-Date (UTD).Tests.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.pdb
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\Up-To-Date (UTD).Tests.genruntimeconfig.cache
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\obj\Debug\net8.0\ref\Up-To-Date (UTD).Tests.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

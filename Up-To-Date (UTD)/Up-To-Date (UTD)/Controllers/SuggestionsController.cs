@@ -14,11 +14,13 @@ namespace Up_To_Date__UTD_.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+        // Constructor to initialize the database context.
         public SuggestionsController(ApplicationDbContext context)
         {
             _context = context;
         }
 
+        // GET: Displays the list of suggestions.
         [HttpGet]
         public IActionResult Index()
         {
@@ -26,25 +28,25 @@ namespace Up_To_Date__UTD_.Controllers
             return View(suggestions);
         }
 
+        // POST: Creates a new suggestion if the content is valid.
         [HttpPost]
         public IActionResult Create(string content)
         {
             if (string.IsNullOrWhiteSpace(content))
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Index"); 
             }
 
             var suggestion = new Suggestion
             {
                 Content = content,
-                DatePosted = DateTime.Now
+                DatePosted = DateTime.Now 
             };
 
             _context.Suggestions.Add(suggestion);
-            _context.SaveChangesAsync();
+            _context.SaveChangesAsync(); 
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index"); 
         }
     }
-
 }

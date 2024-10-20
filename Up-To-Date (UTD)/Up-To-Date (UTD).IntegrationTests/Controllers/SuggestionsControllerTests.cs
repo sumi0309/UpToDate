@@ -1,10 +1,9 @@
 ﻿using FluentAssertions;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
-
+using Xunit;
 
 namespace Up_To_Date__UTD_.IntegrationTests.Controllers
 {
@@ -12,36 +11,30 @@ namespace Up_To_Date__UTD_.IntegrationTests.Controllers
     {
         private readonly HttpClient _client;
 
+        // Constructor to initialize the HTTP client for testing.
         public SuggestionsControllerTests(CustomWebApplicationFactory<Up_To_Date__UTD_.Program> factory)
         {
-            // Create an HTTP client to make requests to your app
             _client = factory.CreateClient();
         }
 
+        // Test to verify that the Index action returns a successful response.
         [Fact]
         public async Task Get_Index_Returns_Success()
         {
-            // Act
             var response = await _client.GetAsync("/Suggestions");
-
-            // Assert
-            response.EnsureSuccessStatusCode(); // Status Code 200-299
+            response.EnsureSuccessStatusCode(); 
             response.Content.Headers.ContentType.ToString().Should().Contain("text/html");
         }
 
+        // Test to verify that posting a new suggestion adds it to the list.
         [Fact]
         public async Task Post_CreateSuggestion_Adds_New_Suggestion()
         {
-            // Arrange
             var postData = new FormUrlEncodedContent(new[]
             {
                 new KeyValuePair<string, string>("content", "New Test Suggestion")
             });
-
-            // Act
             var response = await _client.PostAsync("/Suggestions/Create", postData);
-
-            // Assert
             response.EnsureSuccessStatusCode();
             var suggestions = await _client.GetStringAsync("/Suggestions");
             suggestions.Should().Contain("New Test Suggestion");

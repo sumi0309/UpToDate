@@ -16,19 +16,20 @@ namespace Up_To_Date__UTD_.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+        // Constructor to initialize the database context.
         public NewsController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: News
+        // GET: Displays a paginated list of news items.
         public async Task<IActionResult> Index(int pageNumber = 1, int pageSize = 5)
         {
             var totalNewsCount = await _context.News.CountAsync();
             var totalPages = (int)Math.Ceiling(totalNewsCount / (double)pageSize);
 
             var newsItems = await _context.News
-                .OrderBy(n => n.Id) 
+                .OrderBy(n => n.Id)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
@@ -39,15 +40,15 @@ namespace Up_To_Date__UTD_.Controllers
             return View(newsItems);
         }
 
-        //News/ShowSeachForm
+        // GET: Returns the view for the search form.
         public async Task<IActionResult> ShowSearchForm()
         {
             return View();
         }
 
-        //POST: News/ShowSearchResults
+        // POST: Displays the search results based on the search phrase.
         public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
-        {  
+        {
             var searchResults = await _context.News.Where(j => j.NewsHeading.Contains(SearchPhrase)).ToListAsync();
             if (searchResults == null || searchResults.Count == 0)
             {
@@ -56,7 +57,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View("Index", searchResults);
         }
 
-        // GET: News/Details/
+        // GET: Displays the details of a specific news item.
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -74,15 +75,15 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // GET: News/Create
+        // GET: Returns the view for creating a new news item (only for authorized users).
         [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: News/Create
-        [Authorize(Roles ="Admin")]
+        // POST: Creates a new news item (only for Admin role).
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,NewsHeading,NewsDescription")] News news)
@@ -96,7 +97,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // GET: News/Edit
+        // GET: Returns the view for editing a news item (only for authorized users).
         [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -113,7 +114,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // POST: News/Edit
+        // POST: Updates an existing news item (only for Editor role).
         [Authorize(Roles = "Editor")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -147,7 +148,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // GET: News/Delete
+        // GET: Returns the view for deleting a news item (only for authorized users).
         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -166,7 +167,7 @@ namespace Up_To_Date__UTD_.Controllers
             return View(news);
         }
 
-        // POST: News/Delete
+        // POST: Confirms the deletion of a news item (only for Admin role).
         [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -182,6 +183,7 @@ namespace Up_To_Date__UTD_.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        // Checks if a news item exists by ID.
         private bool NewsExists(int id)
         {
             return _context.News.Any(e => e.Id == id);

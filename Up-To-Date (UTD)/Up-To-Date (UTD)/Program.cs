@@ -22,7 +22,7 @@ namespace Up_To_Date__UTD_  // Ensure the namespace matches your project
 
             var app = builder.Build();
 
-            // Ensure roles are created
+            // creating admin and editor roles
             using (var scope = app.Services.CreateScope())
             {
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
@@ -45,7 +45,7 @@ namespace Up_To_Date__UTD_  // Ensure the namespace matches your project
                 }
             }
 
-            // Handle error pages
+            
             if (app.Environment.IsDevelopment())
             {
                 app.UseMigrationsEndPoint();
@@ -56,7 +56,7 @@ namespace Up_To_Date__UTD_  // Ensure the namespace matches your project
                 app.UseHsts();
             }
 
-            // Ensure users are assigned to roles
+            // assigning admin and editor role to two users
             using (var scope = app.Services.CreateScope())
             {
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
@@ -90,7 +90,7 @@ namespace Up_To_Date__UTD_  // Ensure the namespace matches your project
 
             app.MapRazorPages();
 
-            await app.RunAsync(); // Ensure to run asynchronously
+            await app.RunAsync(); 
         }
     }
 }

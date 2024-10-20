@@ -13,35 +13,32 @@ namespace Up_To_Date__UTD_.Tests.UnitTests.Controllers
 {
     public class HomeControllerTests
     {
-        private readonly Mock<ILogger<HomeController>> _loggerMock;
-        private readonly HomeController _controller;
+        private readonly Mock<ILogger<HomeController>> _loggerMock; // Mock for the logger
+        private readonly HomeController _controller; // Instance of the controller being tested
 
+        // Constructor to initialize the mock and the controller
         public HomeControllerTests()
         {
             _loggerMock = new Mock<ILogger<HomeController>>();
             _controller = new HomeController(_loggerMock.Object);
         }
 
+        // Test for the Index action
         [Fact]
         public void Index_ReturnsViewResult()
         {
-            // Act
-            var result = _controller.Index();
-
-            // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            Assert.Null(viewResult.ViewName); // By default, it returns the view with the same name
+            var result = _controller.Index(); 
+            var viewResult = Assert.IsType<ViewResult>(result); 
+            Assert.Null(viewResult.ViewName); 
         }
 
+        // Test for the Privacy action
         [Fact]
         public void Privacy_ReturnsViewResult()
         {
-            // Act
             var result = _controller.Privacy();
-
-            // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            Assert.Null(viewResult.ViewName); // By default, it returns the view with the same name
+            var viewResult = Assert.IsType<ViewResult>(result); 
+            Assert.Null(viewResult.ViewName); 
         }
     }
 }

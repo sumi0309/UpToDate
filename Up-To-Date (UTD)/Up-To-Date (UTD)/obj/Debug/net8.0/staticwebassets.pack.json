@@ -245,6 +245,30 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\s41586-024-07789-z.pdf",
+      "PackagePath": "staticwebassets\\uploads\\s41586-024-07789-z.pdf"
+    },
+    {
+      "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\s41586-024-07878-z.pdf",
+      "PackagePath": "staticwebassets\\uploads\\s41586-024-07878-z.pdf"
+    },
+    {
+      "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\s41586-024-07945-5.pdf",
+      "PackagePath": "staticwebassets\\uploads\\s41586-024-07945-5.pdf"
+    },
+    {
+      "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\s41586-024-07959-z.pdf",
+      "PackagePath": "staticwebassets\\uploads\\s41586-024-07959-z.pdf"
+    },
+    {
+      "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\s41586-024-08039-y.pdf",
+      "PackagePath": "staticwebassets\\uploads\\s41586-024-08039-y.pdf"
+    },
+    {
+      "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\s41586-024-08042-3.pdf",
+      "PackagePath": "staticwebassets\\uploads\\s41586-024-08042-3.pdf"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Up-To-Date (UTD).Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

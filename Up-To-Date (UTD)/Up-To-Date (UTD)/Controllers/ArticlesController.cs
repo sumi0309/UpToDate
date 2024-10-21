@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.IO;
@@ -28,6 +29,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // Returns the view for creating a new article.
+        [Authorize]
         [HttpGet]
         public IActionResult Create()
         {

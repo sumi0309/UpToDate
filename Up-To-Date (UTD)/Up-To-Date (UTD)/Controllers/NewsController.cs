@@ -23,6 +23,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // GET: Displays a paginated list of news items.
+        [Authorize]
         public async Task<IActionResult> Index(int pageNumber = 1, int pageSize = 5)
         {
             var totalNewsCount = await _context.News.CountAsync();
@@ -41,6 +42,7 @@ namespace Up_To_Date__UTD_.Controllers
         }
 
         // GET: Returns the view for the search form.
+        [Authorize]
         public async Task<IActionResult> ShowSearchForm()
         {
             return View();

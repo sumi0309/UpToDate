@@ -2,11 +2,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Up_To_Date__UTD_.Data;
 
-namespace Up_To_Date__UTD_  // Ensure the namespace matches your project
+namespace Up_To_Date__UTD_ 
 {
     public class Program
     {
-        public static async Task Main(string[] args) // Changed to async Task
+        public static async Task Main(string[] args) 
         {
             var builder = WebApplication.CreateBuilder(args);
 

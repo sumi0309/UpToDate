@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D461F978-34C3-4748-A399-EC5E6B5B6AAC}|Up-To-Date (UTD).IntegrationTests\\Up-To-Date (UTD).IntegrationTests.csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd).integrationtests\\controllers\\articlescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D461F978-34C3-4748-A399-EC5E6B5B6AAC}|Up-To-Date (UTD).IntegrationTests\\Up-To-Date (UTD).IntegrationTests.csproj|solutionrelative:up-to-date (utd).integrationtests\\controllers\\articlescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEFFDF3-1B52-4656-BD70-C0C3CD8E41A8}|Up-To-Date (UTD).Tests\\Up-To-Date (UTD).Tests.csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd).tests\\unittests\\controllers\\articlescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AEFFDF3-1B52-4656-BD70-C0C3CD8E41A8}|Up-To-Date (UTD).Tests\\Up-To-Date (UTD).Tests.csproj|solutionrelative:up-to-date (utd).tests\\unittests\\controllers\\articlescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticlesControllerTests.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD).IntegrationTests\\Controllers\\ArticlesControllerTests.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD).IntegrationTests\\Controllers\\ArticlesControllerTests.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD).IntegrationTests\\Controllers\\ArticlesControllerTests.cs",
+              "RelativeToolTip": "Up-To-Date (UTD).IntegrationTests\\Controllers\\ArticlesControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T00:04:17.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticlesControllerTests.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD).Tests\\UnitTests\\Controllers\\ArticlesControllerTests.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD).Tests\\UnitTests\\Controllers\\ArticlesControllerTests.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD).Tests\\UnitTests\\Controllers\\ArticlesControllerTests.cs",
+              "RelativeToolTip": "Up-To-Date (UTD).Tests\\UnitTests\\Controllers\\ArticlesControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T23:30:53.295Z",
+              "EditorCaption": ""
             }
           ]
         }

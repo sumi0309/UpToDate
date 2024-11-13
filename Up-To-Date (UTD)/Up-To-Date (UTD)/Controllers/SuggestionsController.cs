@@ -30,7 +30,7 @@ namespace Up_To_Date__UTD_.Controllers
 
         // POST: Creates a new suggestion if the content is valid.
         [HttpPost]
-        public IActionResult Create(string content)
+        public async Task<IActionResult> Create(string content)
         {
             if (string.IsNullOrWhiteSpace(content))
             {
@@ -44,7 +44,7 @@ namespace Up_To_Date__UTD_.Controllers
             };
 
             _context.Suggestions.Add(suggestion);
-            _context.SaveChangesAsync(); 
+            await _context.SaveChangesAsync(); 
 
             return RedirectToAction("Index"); 
         }

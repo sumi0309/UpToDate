@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\controllers\\suggestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\controllers\\suggestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Article.cs",
-              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Models\\Article.cs",
-              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Models\\Article.cs",
-              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Models\\Article.cs",
-              "RelativeToolTip": "Up-To-Date (UTD)\\Models\\Article.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SuggestionsController.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\SuggestionsController.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Controllers\\SuggestionsController.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\SuggestionsController.cs",
+              "RelativeToolTip": "Up-To-Date (UTD)\\Controllers\\SuggestionsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:47:49.658Z"
+              "WhenOpened": "2024-11-16T23:00:18.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Articles\\Index.cshtml",
-              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Views\\Articles\\Index.cshtml",
-              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Views\\Articles\\Index.cshtml",
-              "RelativeToolTip": "Up-To-Date (UTD)\\Views\\Articles\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T21:39:55.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ArticlesController.cs",
-              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\ArticlesController.cs",
-              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Controllers\\ArticlesController.cs",
-              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\ArticlesController.cs",
-              "RelativeToolTip": "Up-To-Date (UTD)\\Controllers\\ArticlesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Controllers\\NewsController.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Up-To-Date (UTD)\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAiwDkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:38:16.493Z",
+              "WhenOpened": "2024-11-16T22:45:25.184Z",
               "EditorCaption": ""
             }
           ]

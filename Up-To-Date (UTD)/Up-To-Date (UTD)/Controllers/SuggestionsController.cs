@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Up_To_Date__UTD_.Data;
 using Up_To_Date__UTD_.Models;
+using System.Net;
 
 namespace Up_To_Date__UTD_.Controllers
 {
@@ -42,12 +43,14 @@ namespace Up_To_Date__UTD_.Controllers
 
             try
             {
+
+                var encodedContent = WebUtility.HtmlEncode(content);
                 var suggestion = new Suggestion
                 {
-                    Content = content,
+                    Content = encodedContent,
                     DatePosted = DateTime.Now
                 };
-
+                Log.Information("Contents encoded before storing in database to prevent XSS");
                 _context.Suggestions.Add(suggestion);
                 await _context.SaveChangesAsync();
 

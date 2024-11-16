@@ -49,7 +49,7 @@
                 @foreach (var suggestion in Model)
                 {
                     <tr>
-                        <td>@suggestion.Content</td>
+                        <td>@Html.Raw(suggestion.Content)</td>
                         <td class="suggestion-date">@suggestion.DatePosted.ToString("g")</td>
                     </tr>
                 }

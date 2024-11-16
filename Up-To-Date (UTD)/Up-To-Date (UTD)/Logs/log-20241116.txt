@@ -1,0 +1,277 @@
+2024-11-16 15:04:20.126 -05:00 [INF] Starting the application
+2024-11-16 15:11:08.649 -05:00 [INF] Starting the application
+2024-11-16 15:11:12.826 -05:00 [INF] Authorization roles created.
+2024-11-16 15:11:13.049 -05:00 [INF] Roles assigned.
+2024-11-16 15:12:06.650 -05:00 [INF] Starting the application
+2024-11-16 15:12:09.808 -05:00 [INF] Authorization roles created.
+2024-11-16 15:12:10.018 -05:00 [INF] Roles assigned.
+2024-11-16 15:52:53.093 -05:00 [INF] Starting the application
+2024-11-16 15:52:56.941 -05:00 [INF] Authorization roles created.
+2024-11-16 15:52:57.117 -05:00 [INF] Roles assigned.
+2024-11-16 15:52:58.434 -05:00 [INF] HomeController initialized.
+2024-11-16 15:52:58.437 -05:00 [INF] Accessed the Home page.
+2024-11-16 15:53:46.941 -05:00 [INF] HomeController initialized.
+2024-11-16 15:53:46.941 -05:00 [INF] Accessed the Home page.
+2024-11-16 15:53:51.546 -05:00 [INF] HomeController initialized.
+2024-11-16 15:53:51.546 -05:00 [INF] Accessed the Privacy page.
+2024-11-16 15:54:06.559 -05:00 [INF] HomeController initialized.
+2024-11-16 15:54:06.560 -05:00 [INF] Accessed the Home page.
+2024-11-16 15:54:38.477 -05:00 [INF] NewsController initialized.
+2024-11-16 15:54:38.509 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 15:54:38.627 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 15:54:51.925 -05:00 [INF] NewsController initialized.
+2024-11-16 15:54:51.925 -05:00 [INF] Fetching news list. Page number: 2, Page size: 5
+2024-11-16 15:54:51.942 -05:00 [INF] Fetched 5 news items for page 2.
+2024-11-16 15:54:53.284 -05:00 [INF] NewsController initialized.
+2024-11-16 15:54:53.285 -05:00 [INF] Fetching news list. Page number: 3, Page size: 5
+2024-11-16 15:54:53.295 -05:00 [INF] Fetched 1 news items for page 3.
+2024-11-16 15:54:59.109 -05:00 [INF] NewsController initialized.
+2024-11-16 15:54:59.110 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 15:54:59.252 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 15:55:04.533 -05:00 [INF] NewsController initialized.
+2024-11-16 15:55:04.534 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-16 15:55:22.255 -05:00 [INF] NewsController initialized.
+2024-11-16 15:55:22.298 -05:00 [INF] Adding new entity: News, Data: {"Id":0,"NewsHeading":"Demo news","NewsDescription":"Demo data","$type":"News"}
+2024-11-16 15:55:22.407 -05:00 [INF] Database changes saved successfully.
+2024-11-16 15:55:22.408 -05:00 [INF] New news item created with ID: 15, Heading: Demo news.
+2024-11-16 15:55:22.417 -05:00 [INF] NewsController initialized.
+2024-11-16 15:55:22.418 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 15:55:22.426 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 15:55:24.398 -05:00 [INF] NewsController initialized.
+2024-11-16 15:55:24.398 -05:00 [INF] Fetching news list. Page number: 3, Page size: 5
+2024-11-16 15:55:24.409 -05:00 [INF] Fetched 2 news items for page 3.
+2024-11-16 15:57:06.338 -05:00 [INF] NewsController initialized.
+2024-11-16 15:57:06.350 -05:00 [INF] Accessed delete view for news item with ID: 15.
+2024-11-16 15:57:36.055 -05:00 [INF] NewsController initialized.
+2024-11-16 15:57:36.079 -05:00 [INF] Database changes saved successfully.
+2024-11-16 15:57:36.079 -05:00 [INF] News item with ID: 15 deleted successfully.
+2024-11-16 15:57:36.086 -05:00 [INF] NewsController initialized.
+2024-11-16 15:57:36.086 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 15:57:36.093 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 15:57:51.613 -05:00 [INF] NewsController initialized.
+2024-11-16 15:57:51.620 -05:00 [INF] Displaying details for news item with ID: 1.
+2024-11-16 15:57:55.599 -05:00 [INF] NewsController initialized.
+2024-11-16 15:57:55.599 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 15:57:55.615 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 15:57:58.056 -05:00 [INF] NewsController initialized.
+2024-11-16 15:57:58.062 -05:00 [INF] Accessed edit view for news item with ID: 2.
+2024-11-16 15:58:15.098 -05:00 [INF] NewsController initialized.
+2024-11-16 15:58:15.102 -05:00 [INF] Accessed edit view for news item with ID: 2.
+2024-11-16 15:58:17.199 -05:00 [INF] NewsController initialized.
+2024-11-16 15:58:17.200 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 15:58:17.214 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 15:59:05.151 -05:00 [INF] NewsController initialized.
+2024-11-16 15:59:05.152 -05:00 [INF] Accessed news search form.
+2024-11-16 15:59:09.719 -05:00 [INF] NewsController initialized.
+2024-11-16 15:59:09.720 -05:00 [INF] Search initiated with phrase: get
+2024-11-16 15:59:09.734 -05:00 [INF] 1 search results found for phrase: get
+2024-11-16 15:59:23.912 -05:00 [INF] NewsController initialized.
+2024-11-16 15:59:23.918 -05:00 [INF] Accessed delete view for news item with ID: 1.
+2024-11-16 15:59:26.957 -05:00 [INF] NewsController initialized.
+2024-11-16 15:59:26.958 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 15:59:26.967 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 15:59:28.650 -05:00 [INF] NewsController initialized.
+2024-11-16 15:59:28.650 -05:00 [INF] Accessed news search form.
+2024-11-16 15:59:33.498 -05:00 [INF] NewsController initialized.
+2024-11-16 15:59:33.498 -05:00 [INF] Search initiated with phrase: et
+2024-11-16 15:59:33.504 -05:00 [INF] 2 search results found for phrase: et
+2024-11-16 15:59:37.931 -05:00 [INF] NewsController initialized.
+2024-11-16 15:59:37.931 -05:00 [INF] Accessed news search form.
+2024-11-16 15:59:40.343 -05:00 [INF] NewsController initialized.
+2024-11-16 15:59:40.344 -05:00 [INF] Search initiated with phrase: fight
+2024-11-16 15:59:40.351 -05:00 [WRN] No search results found for phrase: fight
+2024-11-16 15:59:47.928 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 15:59:47.929 -05:00 [INF] Fetching list of suggestions.
+2024-11-16 15:59:47.961 -05:00 [INF] Total suggestions fetched: 3
+2024-11-16 16:00:14.542 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 16:00:14.547 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":0,"Content":"Demo suggestion\r\n","DatePosted":"2024-11-16T16:00:14.5442358-05:00","$type":"Suggestion"}
+2024-11-16 16:00:14.557 -05:00 [INF] Database changes saved successfully.
+2024-11-16 16:00:14.557 -05:00 [INF] New suggestion created with ID: 60, Content: Demo suggestion
+
+2024-11-16 16:00:14.562 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 16:00:14.562 -05:00 [INF] Fetching list of suggestions.
+2024-11-16 16:00:14.570 -05:00 [INF] Total suggestions fetched: 4
+2024-11-16 16:00:45.727 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 16:00:45.727 -05:00 [INF] Fetching list of suggestions.
+2024-11-16 16:00:45.745 -05:00 [INF] Total suggestions fetched: 3
+2024-11-16 16:00:50.111 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:00:50.112 -05:00 [INF] Fetching the list of articles.
+2024-11-16 16:01:47.453 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:01:47.455 -05:00 [INF] Fetching the list of articles.
+2024-11-16 16:02:02.287 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:02:02.287 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 16:02:43.136 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:02:43.136 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 16:03:02.186 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:03:02.191 -05:00 [INF] Processing file upload: IMG_2196.mp4, Size: 10233310 bytes
+2024-11-16 16:03:02.236 -05:00 [INF] File IMG_2196.mp4 successfully uploaded to E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads\IMG_2196.mp4.
+2024-11-16 16:03:02.239 -05:00 [INF] Adding new entity: Article, Data: {"Id":0,"Title":"demo","Content":"demo","FilePath":"/uploads/IMG_2196.mp4","$type":"Article"}
+2024-11-16 16:03:02.245 -05:00 [INF] Database changes saved successfully.
+2024-11-16 16:03:02.245 -05:00 [INF] New article created with ID: 17, Title: demo
+2024-11-16 16:03:08.926 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:03:08.926 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 16:03:41.320 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:03:41.320 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 16:03:44.877 -05:00 [INF] HomeController initialized.
+2024-11-16 16:03:44.877 -05:00 [INF] Accessed the Home page.
+2024-11-16 16:25:25.529 -05:00 [INF] Starting the application
+2024-11-16 16:25:28.516 -05:00 [INF] Authorization roles created.
+2024-11-16 16:25:28.687 -05:00 [INF] Roles assigned.
+2024-11-16 16:25:29.380 -05:00 [INF] HomeController initialized.
+2024-11-16 16:25:29.381 -05:00 [INF] Accessed the Home page.
+2024-11-16 16:25:37.435 -05:00 [INF] HomeController initialized.
+2024-11-16 16:25:37.435 -05:00 [INF] Accessed the Home page.
+2024-11-16 16:25:40.727 -05:00 [INF] NewsController initialized.
+2024-11-16 16:25:40.749 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:25:40.846 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:25:42.998 -05:00 [INF] NewsController initialized.
+2024-11-16 16:25:43.011 -05:00 [INF] Accessed edit view for news item with ID: 2.
+2024-11-16 16:26:18.804 -05:00 [INF] NewsController initialized.
+2024-11-16 16:26:18.805 -05:00 [INF] Accessed news search form.
+2024-11-16 16:26:29.185 -05:00 [INF] NewsController initialized.
+2024-11-16 16:26:29.185 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:26:29.198 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:26:31.432 -05:00 [INF] NewsController initialized.
+2024-11-16 16:26:31.438 -05:00 [INF] Accessed edit view for news item with ID: 2.
+2024-11-16 16:26:51.734 -05:00 [INF] NewsController initialized.
+2024-11-16 16:26:51.740 -05:00 [INF] Accessed edit view for news item with ID: 2.
+2024-11-16 16:26:53.669 -05:00 [INF] NewsController initialized.
+2024-11-16 16:26:53.670 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:26:53.691 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:27:21.288 -05:00 [INF] Starting the application
+2024-11-16 16:27:23.927 -05:00 [INF] Authorization roles created.
+2024-11-16 16:27:24.104 -05:00 [INF] Roles assigned.
+2024-11-16 16:27:24.996 -05:00 [INF] HomeController initialized.
+2024-11-16 16:27:24.999 -05:00 [INF] Accessed the Home page.
+2024-11-16 16:27:28.553 -05:00 [INF] NewsController initialized.
+2024-11-16 16:27:28.583 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:27:28.725 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:27:32.271 -05:00 [INF] NewsController initialized.
+2024-11-16 16:27:32.298 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-16 16:27:32.300 -05:00 [WRN] Unauthorized access attempt: User sumi0309@umd.edu tried to edit news with ID: 1.
+2024-11-16 16:27:55.290 -05:00 [INF] NewsController initialized.
+2024-11-16 16:27:55.296 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-16 16:27:55.296 -05:00 [WRN] Unauthorized access attempt: User sumi0309@umd.edu tried to edit news with ID: 1.
+2024-11-16 16:27:55.757 -05:00 [INF] NewsController initialized.
+2024-11-16 16:27:55.757 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:27:55.766 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:28:47.903 -05:00 [INF] NewsController initialized.
+2024-11-16 16:28:47.913 -05:00 [INF] Accessed edit view for news item with ID: 2.
+2024-11-16 16:28:47.913 -05:00 [WRN] Unauthorized access attempt: User sumi0309@umd.edu tried to edit news with ID: 2.
+2024-11-16 16:28:55.983 -05:00 [INF] NewsController initialized.
+2024-11-16 16:28:55.989 -05:00 [INF] Accessed edit view for news item with ID: 2.
+2024-11-16 16:28:55.989 -05:00 [WRN] Unauthorized access attempt: User sumi0309@umd.edu tried to edit news with ID: 2.
+2024-11-16 16:28:57.513 -05:00 [INF] NewsController initialized.
+2024-11-16 16:28:57.514 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:28:57.524 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:35:35.633 -05:00 [INF] NewsController initialized.
+2024-11-16 16:35:35.633 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:35:35.733 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:35:39.328 -05:00 [INF] NewsController initialized.
+2024-11-16 16:35:39.329 -05:00 [INF] Accessed news search form.
+2024-11-16 16:35:40.223 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 16:35:40.224 -05:00 [INF] Fetching list of suggestions.
+2024-11-16 16:35:40.250 -05:00 [INF] Total suggestions fetched: 3
+2024-11-16 16:35:40.821 -05:00 [INF] NewsController initialized.
+2024-11-16 16:35:40.822 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:35:40.832 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:35:45.251 -05:00 [INF] NewsController initialized.
+2024-11-16 16:35:45.264 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-16 16:35:45.264 -05:00 [WRN] Unauthorized edit attempt: User sumi0309@umd.edu tried to edit news with ID: 1.
+2024-11-16 16:35:53.498 -05:00 [INF] NewsController initialized.
+2024-11-16 16:35:53.503 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-16 16:35:53.503 -05:00 [WRN] Unauthorized edit attempt: User sumi0309@umd.edu tried to edit news with ID: 1.
+2024-11-16 16:35:55.926 -05:00 [INF] NewsController initialized.
+2024-11-16 16:35:55.926 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:35:55.938 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:35:57.594 -05:00 [INF] HomeController initialized.
+2024-11-16 16:35:57.594 -05:00 [INF] Accessed the Home page.
+2024-11-16 16:36:07.659 -05:00 [INF] HomeController initialized.
+2024-11-16 16:36:07.659 -05:00 [INF] Accessed the Home page.
+2024-11-16 16:36:10.485 -05:00 [INF] NewsController initialized.
+2024-11-16 16:36:10.486 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:36:10.494 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:36:12.851 -05:00 [INF] NewsController initialized.
+2024-11-16 16:36:12.857 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-16 16:36:23.593 -05:00 [INF] NewsController initialized.
+2024-11-16 16:36:23.611 -05:00 [INF] Modifying entity: News, Data: {"Id":1,"NewsHeading":"Meals on Wheels College Park turns 50, gets surprise from News4.","NewsDescription":"Meals on Wheels College Park is celebrating 50 years of fighting food insecurity in the community, but its leaders say it needs more donations and volunteers.","$type":"News"}
+2024-11-16 16:36:23.692 -05:00 [INF] Database changes saved successfully.
+2024-11-16 16:36:23.692 -05:00 [INF] News item with ID: 1 updated successfully.
+2024-11-16 16:36:23.699 -05:00 [INF] NewsController initialized.
+2024-11-16 16:36:23.699 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:36:23.707 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:36:50.988 -05:00 [INF] NewsController initialized.
+2024-11-16 16:36:50.995 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-16 16:36:54.141 -05:00 [INF] NewsController initialized.
+2024-11-16 16:36:54.142 -05:00 [INF] Modifying entity: News, Data: {"Id":1,"NewsHeading":"Meals on Wheels College Park turns 50, gets surprise from News4","NewsDescription":"Meals on Wheels College Park is celebrating 50 years of fighting food insecurity in the community, but its leaders say it needs more donations and volunteers.","$type":"News"}
+2024-11-16 16:36:54.150 -05:00 [INF] Database changes saved successfully.
+2024-11-16 16:36:54.150 -05:00 [INF] News item with ID: 1 updated successfully.
+2024-11-16 16:36:54.155 -05:00 [INF] NewsController initialized.
+2024-11-16 16:36:54.155 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-16 16:36:54.165 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-16 16:37:02.542 -05:00 [INF] NewsController initialized.
+2024-11-16 16:37:02.561 -05:00 [INF] Accessed delete view for news item with ID: 1.
+2024-11-16 16:37:02.561 -05:00 [WRN] Unauthorized delete attempt: User sumiranjaiswal09@gmail.com tried to delete news with ID: 1.
+2024-11-16 16:37:41.504 -05:00 [INF] NewsController initialized.
+2024-11-16 16:37:41.509 -05:00 [INF] Accessed delete view for news item with ID: 1.
+2024-11-16 16:37:41.509 -05:00 [WRN] Unauthorized delete attempt: User sumiranjaiswal09@gmail.com tried to delete news with ID: 1.
+2024-11-16 16:37:42.490 -05:00 [INF] HomeController initialized.
+2024-11-16 16:37:42.490 -05:00 [INF] Accessed the Home page.
+2024-11-16 16:39:24.972 -05:00 [INF] Starting the application
+2024-11-16 16:39:27.767 -05:00 [INF] Authorization roles created.
+2024-11-16 16:39:27.965 -05:00 [INF] Roles assigned.
+2024-11-16 16:39:28.825 -05:00 [INF] HomeController initialized.
+2024-11-16 16:39:28.826 -05:00 [INF] Accessed the Home page.
+2024-11-16 16:39:39.129 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:39:39.131 -05:00 [INF] Fetching the list of articles.
+2024-11-16 16:49:30.191 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:49:30.191 -05:00 [INF] Fetching the list of articles.
+2024-11-16 16:49:31.727 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 16:49:31.728 -05:00 [INF] Fetching list of suggestions.
+2024-11-16 16:49:31.744 -05:00 [INF] Total suggestions fetched: 3
+2024-11-16 16:49:37.209 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:49:37.209 -05:00 [INF] Fetching the list of articles.
+2024-11-16 16:56:50.900 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:56:50.900 -05:00 [INF] Fetching the list of articles.
+2024-11-16 16:57:27.482 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 16:57:27.482 -05:00 [INF] Fetching list of suggestions.
+2024-11-16 16:57:27.494 -05:00 [INF] Total suggestions fetched: 3
+2024-11-16 16:57:30.366 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:57:30.366 -05:00 [INF] Fetching the list of articles.
+2024-11-16 16:57:36.162 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 16:57:36.195 -05:00 [WRN] File for article ID 11 not found at path /uploads/s41586-024-08039-y.pdf.
+2024-11-16 17:01:56.582 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:01:56.582 -05:00 [INF] Fetching the list of articles.
+2024-11-16 17:02:01.751 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 17:02:01.751 -05:00 [INF] Fetching list of suggestions.
+2024-11-16 17:02:01.756 -05:00 [INF] Total suggestions fetched: 3
+2024-11-16 17:02:04.307 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:02:04.308 -05:00 [INF] Fetching the list of articles.
+2024-11-16 17:02:09.558 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:02:09.565 -05:00 [INF] User is downloading file for article with ID 11 from path E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads/s41586-024-08039-y.pdf.
+2024-11-16 17:05:22.579 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:05:22.579 -05:00 [INF] Fetching the list of articles.
+2024-11-16 17:05:27.415 -05:00 [INF] SuggestionsController initialized.
+2024-11-16 17:05:27.415 -05:00 [INF] Fetching list of suggestions.
+2024-11-16 17:05:27.420 -05:00 [INF] Total suggestions fetched: 3
+2024-11-16 17:05:31.384 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:05:31.384 -05:00 [INF] Fetching the list of articles.
+2024-11-16 17:05:34.948 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:05:34.955 -05:00 [INF] User is downloading file for article with ID 11 from path E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads/s41586-024-08039-y.pdf.
+2024-11-16 17:07:28.007 -05:00 [INF] Starting the application
+2024-11-16 17:07:30.845 -05:00 [INF] Authorization roles created.
+2024-11-16 17:07:31.033 -05:00 [INF] Roles assigned.
+2024-11-16 17:07:31.980 -05:00 [INF] HomeController initialized.
+2024-11-16 17:07:31.981 -05:00 [INF] Accessed the Home page.
+2024-11-16 17:07:33.944 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:07:33.946 -05:00 [INF] Fetching the list of articles.
+2024-11-16 17:07:35.222 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:07:35.262 -05:00 [INF] User is downloading file for article with ID 11 from path E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads/s41586-024-08039-y.pdf.
+2024-11-16 17:10:50.612 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:10:50.613 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 17:11:01.956 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 17:11:01.977 -05:00 [INF] Processing file upload: IMG_2196.mp4, Size: 10233310 bytes
+2024-11-16 17:11:02.039 -05:00 [INF] File IMG_2196.mp4 successfully uploaded to E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads\IMG_2196.mp4.
+2024-11-16 17:11:02.072 -05:00 [INF] Adding new entity: Article, Data: {"Id":0,"Title":"asad","Content":"dsfsad","FilePath":"/uploads/IMG_2196.mp4","$type":"Article"}
+2024-11-16 17:11:02.166 -05:00 [INF] Database changes saved successfully.
+2024-11-16 17:11:02.166 -05:00 [INF] New article created with ID: 18, Title: asad

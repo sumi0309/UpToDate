@@ -44,10 +44,10 @@ namespace Up_To_Date__UTD_.Tests
 
         // Test for Create action with valid content
         [Fact]
-        public void Create_Redirects_To_Index_When_Content_Is_Valid()
+        public async Task Create_Redirects_To_Index_When_Content_Is_Valid()
         {
             string validContent = "Valid suggestion content";
-            var result = _controller.Create(validContent) as RedirectToActionResult;
+            var result = await _controller.Create(validContent) as RedirectToActionResult;
             Assert.NotNull(result); 
             Assert.Equal("Index", result.ActionName); 
             var suggestionsCount = _context.Suggestions.Count(); 
@@ -56,10 +56,10 @@ namespace Up_To_Date__UTD_.Tests
 
         // Test for Create action with empty content
         [Fact]
-        public void Create_Redirects_To_Index_When_Content_Is_Empty()
+        public async Task Create_Redirects_To_Index_When_Content_Is_Empty()
         {
             string invalidContent = "";
-            var result = _controller.Create(invalidContent) as RedirectToActionResult;
+            var result = await _controller.Create(invalidContent) as RedirectToActionResult;
             Assert.NotNull(result); 
             Assert.Equal("Index", result.ActionName); 
             var suggestionsCount = _context.Suggestions.Count(); 

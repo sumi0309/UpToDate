@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 using Up_To_Date__UTD_.Models;
+using Serilog; 
 
 namespace Up_To_Date__UTD_.Controllers
 {
@@ -8,29 +10,30 @@ namespace Up_To_Date__UTD_.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        // Constructor to initialize the logger for the HomeController.
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            Log.Information("HomeController initialized.");
         }
 
-        // Displays the home page.
         public IActionResult Index()
         {
+            Log.Information("Accessed the Home page.");
             return View();
         }
 
-        // Displays the privacy policy page.
         public IActionResult Privacy()
         {
+            Log.Information("Accessed the Privacy page.");
             return View();
         }
 
-        // Returns the error view with relevant error information.
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var requestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+            Log.Error("An error occurred with RequestId: {RequestId}.", requestId);
+            return View(new ErrorViewModel { RequestId = requestId });
         }
     }
 }

@@ -1,96 +1,116 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using Up_To_Date__UTD_.Data;
 
-namespace Up_To_Date__UTD_ 
+namespace Up_To_Date__UTD_
 {
     public class Program
     {
-        public static async Task Main(string[] args) 
+        public static async Task Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.Console() 
+                .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day) 
+                .CreateLogger();
 
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-                ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionString));
-            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddRoles<IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
-            builder.Services.AddControllersWithViews();
-
-            var app = builder.Build();
-
-            // creating admin and editor roles
-            using (var scope = app.Services.CreateScope())
+            try
             {
-                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+                Log.Information("Starting the application");
 
-                string adminRole = "Admin";
-                string editorRole = "Editor";
+                var builder = WebApplication.CreateBuilder(args);
 
-                if (!await roleManager.RoleExistsAsync(adminRole))
+                var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+                    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+                builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                    options.UseSqlServer(connectionString));
+                builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+                builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddRoles<IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+                builder.Services.AddControllersWithViews();
+
+                var app = builder.Build();
+
+                // Creating admin and editor roles
+                using (var scope = app.Services.CreateScope())
                 {
-                    var role = new IdentityRole(adminRole);
-                    role.NormalizedName = adminRole.ToUpper();
-                    await roleManager.CreateAsync(role);
+                    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+                    string adminRole = "Admin";
+                    string editorRole = "Editor";
+
+                    if (!await roleManager.RoleExistsAsync(adminRole))
+                    {
+                        var role = new IdentityRole(adminRole);
+                        role.NormalizedName = adminRole.ToUpper();
+                        await roleManager.CreateAsync(role);
+                    }
+
+                    if (!await roleManager.RoleExistsAsync(editorRole))
+                    {
+                        var role = new IdentityRole(editorRole);
+                        role.NormalizedName = editorRole.ToUpper();
+                        await roleManager.CreateAsync(role);
+                    }
+                    Log.Information("Authorization roles created.");
                 }
 
-                if (!await roleManager.RoleExistsAsync(editorRole))
+                if (app.Environment.IsDevelopment())
                 {
-                    var role = new IdentityRole(editorRole);
-                    role.NormalizedName = editorRole.ToUpper();
-                    await roleManager.CreateAsync(role);
+                    app.UseMigrationsEndPoint();
                 }
-            }
-
-            
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseMigrationsEndPoint();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
-            }
-
-            // assigning admin and editor role to two users
-            using (var scope = app.Services.CreateScope())
-            {
-                var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
-
-                string adminEmail = "sumi0309@umd.edu";
-                string editorEmail = "sumiranjaiswal09@gmail.com";
-
-                var adminUser = await userManager.FindByEmailAsync(adminEmail);
-                var editorUser = await userManager.FindByEmailAsync(editorEmail);
-
-                if (adminUser != null && !await userManager.IsInRoleAsync(adminUser, "Admin"))
+                else
                 {
-                    await userManager.AddToRoleAsync(adminUser, "Admin");
+                    app.UseExceptionHandler("/Home/Error");
+                    app.UseHsts();
                 }
-                if (editorUser != null && !await userManager.IsInRoleAsync(editorUser, "Editor"))
+
+                // Assigning admin and editor role to two users
+                using (var scope = app.Services.CreateScope())
                 {
-                    await userManager.AddToRoleAsync(editorUser, "Editor");
+                    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+                    string adminEmail = "sumi0309@umd.edu";
+                    string editorEmail = "sumiranjaiswal09@gmail.com";
+
+                    var adminUser = await userManager.FindByEmailAsync(adminEmail);
+                    var editorUser = await userManager.FindByEmailAsync(editorEmail);
+
+                    if (adminUser != null && !await userManager.IsInRoleAsync(adminUser, "Admin"))
+                    {
+                        await userManager.AddToRoleAsync(adminUser, "Admin");
+                    }
+                    if (editorUser != null && !await userManager.IsInRoleAsync(editorUser, "Editor"))
+                    {
+                        await userManager.AddToRoleAsync(editorUser, "Editor");
+                    }
+                    Log.Information("Roles assigned.");
                 }
+
+                app.UseHttpsRedirection();
+                app.UseStaticFiles();
+
+                app.UseRouting();
+
+                app.UseAuthorization();
+
+                app.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                app.MapRazorPages();
+
+                await app.RunAsync();
             }
-
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
-
-            app.MapRazorPages();
-
-            await app.RunAsync(); 
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "Application terminated unexpectedly");
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
         }
     }
 }

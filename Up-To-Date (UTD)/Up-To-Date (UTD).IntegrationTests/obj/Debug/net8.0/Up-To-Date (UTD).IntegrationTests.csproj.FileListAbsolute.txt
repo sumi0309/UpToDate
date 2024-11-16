@@ -1,3 +1,4 @@
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\CoverletSourceRootsMapping_Up-To-Date (UTD).IntegrationTests
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\testhost.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Up-To-Date (UTD).deps.json
@@ -19,7 +20,6 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bi
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.BearerToken.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Authorization.dll
@@ -129,8 +129,6 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bi
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
@@ -161,7 +159,6 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bi
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\System.Data.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\refs\System.Diagnostics.StackTrace.dll
@@ -644,3 +641,17 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\ob
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\obj\Debug\net8.0\Up-To-Date (UTD).IntegrationTests.pdb
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\obj\Debug\net8.0\Up-To-Date (UTD).IntegrationTests.genruntimeconfig.cache
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\obj\Debug\net8.0\ref\Up-To-Date (UTD).IntegrationTests.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Extensions.Logging.File.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Sinks.Async.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Sinks.RollingFile.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\Serilog.Sinks.Debug.dll

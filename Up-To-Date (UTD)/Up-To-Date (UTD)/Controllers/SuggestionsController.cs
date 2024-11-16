@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Serilog;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using Up_To_Date__UTD_.Data;
 using Up_To_Date__UTD_.Models;
 
@@ -14,17 +13,20 @@ namespace Up_To_Date__UTD_.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        // Constructor to initialize the database context.
+        // Constructor to initialize the database context and configure logging.
         public SuggestionsController(ApplicationDbContext context)
         {
             _context = context;
+            Log.Information("SuggestionsController initialized.");
         }
 
         // GET: Displays the list of suggestions.
         [HttpGet]
         public IActionResult Index()
         {
+            Log.Information("Fetching list of suggestions.");
             var suggestions = _context.Suggestions.ToList();
+            Log.Information("Total suggestions fetched: {SuggestionCount}", suggestions.Count);
             return View(suggestions);
         }
 
@@ -34,19 +36,30 @@ namespace Up_To_Date__UTD_.Controllers
         {
             if (string.IsNullOrWhiteSpace(content))
             {
-                return RedirectToAction("Index"); 
+                Log.Warning("Attempted to create a suggestion with empty or whitespace content.");
+                return RedirectToAction("Index");
             }
 
-            var suggestion = new Suggestion
+            try
             {
-                Content = content,
-                DatePosted = DateTime.Now 
-            };
+                var suggestion = new Suggestion
+                {
+                    Content = content,
+                    DatePosted = DateTime.Now
+                };
 
-            _context.Suggestions.Add(suggestion);
-            await _context.SaveChangesAsync(); 
+                _context.Suggestions.Add(suggestion);
+                await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index"); 
+                Log.Information("New suggestion created with ID: {SuggestionId}, Content: {Content}", suggestion.Id, suggestion.Content);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "Error occurred while creating a new suggestion.");
+                return StatusCode(500, "An error occurred while processing your request.");
+            }
+
+            return RedirectToAction("Index");
         }
     }
 }

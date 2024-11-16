@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "File Type Error";
+}
+
+<div class="alert alert-danger">
+    <h4 class="alert-heading">Invalid File Type</h4>
+    <p>The file you uploaded is not a PDF. Only PDF files are allowed. Please upload a valid PDF file.</p>
+    <a href="@Url.Action("Create", "Articles")" class="btn btn-secondary">Go Back to Create Article</a>
+</div>

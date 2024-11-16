@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Up-To-Date (UTD)", "Up-To-D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Up-To-Date (UTD).Tests", "Up-To-Date (UTD).Tests\Up-To-Date (UTD).Tests.csproj", "{6AEFFDF3-1B52-4656-BD70-C0C3CD8E41A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Up-To-Date (UTD).IntegrationTests", "Up-To-Date (UTD).IntegrationTests\Up-To-Date (UTD).IntegrationTests.csproj", "{D461F978-34C3-4748-A399-EC5E6B5B6AAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Up-To-Date (UTD).IntegrationTests", "Up-To-Date (UTD).IntegrationTests\Up-To-Date (UTD).IntegrationTests.csproj", "{D461F978-34C3-4748-A399-EC5E6B5B6AAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

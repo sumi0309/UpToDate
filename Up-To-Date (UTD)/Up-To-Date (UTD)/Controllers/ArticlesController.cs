@@ -47,6 +47,23 @@ namespace Up_To_Date__UTD_.Controllers
                 {
                     Log.Information("Processing file upload: {FileName}, Size: {Size} bytes", file.FileName, file.Length);
 
+                    var contentType = file.ContentType;
+                    if (contentType != "application/pdf")
+                    {
+                        Log.Warning("Invalid file type uploaded. Only PDF files are allowed. File: {FileName}", file.FileName);
+                        ModelState.AddModelError("File", "Only PDF files are allowed.");
+                        return View("FileTypeError");
+                    }
+
+
+                    const long maxSize = 5 * 1024 * 1024; 
+                    if (file.Length > maxSize)
+                    {
+                        Log.Warning("File uploaded exceeds maximum size. File size: {Size} bytes, Max allowed size: {MaxSize} bytes", file.Length, maxSize);
+                        ModelState.AddModelError("File", "File size exceeds 5 MB limit.");
+                        return View("FileSizeError"); 
+                    }
+
                     if (!Directory.Exists(_path))
                     {
                         Log.Warning("Upload directory does not exist. Creating directory: {Path}", _path);

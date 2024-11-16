@@ -333,3 +333,86 @@
 2024-11-16 18:15:26.161 -05:00 [INF] SuggestionsController initialized.
 2024-11-16 18:15:26.161 -05:00 [INF] Fetching list of suggestions.
 2024-11-16 18:15:26.169 -05:00 [INF] Total suggestions fetched: 3
+2024-11-16 18:25:53.366 -05:00 [INF] Starting the application
+2024-11-16 18:25:56.762 -05:00 [INF] Authorization roles created.
+2024-11-16 18:25:57.004 -05:00 [INF] Roles assigned.
+2024-11-16 18:25:57.862 -05:00 [INF] HomeController initialized.
+2024-11-16 18:25:57.864 -05:00 [INF] Accessed the Home page.
+2024-11-16 18:26:08.840 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:26:08.842 -05:00 [INF] Fetching the list of articles.
+2024-11-16 18:26:10.145 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:26:10.146 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:29:18.334 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:29:18.334 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:29:19.582 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:29:19.582 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:29:36.329 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:29:36.351 -05:00 [INF] Processing file upload: unnamed (1).png, Size: 326796 bytes
+2024-11-16 18:29:36.353 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: unnamed (1).png
+2024-11-16 18:30:56.398 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:30:56.402 -05:00 [INF] Processing file upload: unnamed (1).png, Size: 326796 bytes
+2024-11-16 18:30:56.402 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: unnamed (1).png
+2024-11-16 18:30:59.675 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:30:59.675 -05:00 [INF] Processing file upload: unnamed (1).png, Size: 326796 bytes
+2024-11-16 18:30:59.675 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: unnamed (1).png
+2024-11-16 18:31:03.515 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:03.515 -05:00 [INF] Fetching the list of articles.
+2024-11-16 18:31:04.394 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:04.394 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:31:17.958 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:17.959 -05:00 [INF] Processing file upload: Robotic Arm.jpg, Size: 153363 bytes
+2024-11-16 18:31:17.959 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: Robotic Arm.jpg
+2024-11-16 18:31:46.456 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:46.458 -05:00 [INF] Processing file upload: Robotic Arm.jpg, Size: 153363 bytes
+2024-11-16 18:31:46.459 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: Robotic Arm.jpg
+2024-11-16 18:31:49.094 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:49.095 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:31:51.469 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:51.469 -05:00 [INF] Fetching the list of articles.
+2024-11-16 18:31:52.674 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:52.675 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:31:58.005 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:58.007 -05:00 [INF] Processing file upload: Robotic Arm.jpg, Size: 153363 bytes
+2024-11-16 18:31:58.009 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: Robotic Arm.jpg
+2024-11-16 18:31:59.562 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:31:59.562 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:32:00.014 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:32:00.015 -05:00 [INF] Fetching the list of articles.
+2024-11-16 18:32:02.453 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:32:02.453 -05:00 [INF] Fetching the list of articles.
+2024-11-16 18:33:36.427 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:33:36.427 -05:00 [INF] Fetching the list of articles.
+2024-11-16 18:33:38.078 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:33:38.078 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:33:48.521 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:33:48.523 -05:00 [INF] Processing file upload: Robotic Arm.jpg, Size: 153363 bytes
+2024-11-16 18:33:48.523 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: Robotic Arm.jpg
+2024-11-16 18:34:38.680 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:34:38.680 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:41:00.517 -05:00 [INF] Starting the application
+2024-11-16 18:41:03.551 -05:00 [INF] Authorization roles created.
+2024-11-16 18:41:03.726 -05:00 [INF] Roles assigned.
+2024-11-16 18:41:04.735 -05:00 [INF] HomeController initialized.
+2024-11-16 18:41:04.737 -05:00 [INF] Accessed the Home page.
+2024-11-16 18:41:09.201 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:41:09.202 -05:00 [INF] Fetching the list of articles.
+2024-11-16 18:41:13.651 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:41:13.651 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:41:36.121 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:41:36.158 -05:00 [INF] Processing file upload: Robotic Arm.jpg, Size: 153363 bytes
+2024-11-16 18:41:36.160 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: Robotic Arm.jpg
+2024-11-16 18:41:42.270 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:41:42.270 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:42:22.232 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:42:22.232 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:42:29.125 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:42:29.128 -05:00 [INF] Processing file upload: Use Case Diagram (2).svg, Size: 126420 bytes
+2024-11-16 18:42:29.128 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: Use Case Diagram (2).svg
+2024-11-16 18:42:32.988 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:42:32.988 -05:00 [INF] Accessed Create view for new article.
+2024-11-16 18:43:00.734 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:43:00.734 -05:00 [INF] Processing file upload: Week 7 - Architecture Design.pdf, Size: 7818900 bytes
+2024-11-16 18:43:00.735 -05:00 [WRN] File uploaded exceeds maximum size. File size: 7818900 bytes, Max allowed size: 5242880 bytes
+2024-11-16 18:43:18.869 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 18:43:18.870 -05:00 [INF] Processing file upload: Week 7 - Architecture Design.pdf, Size: 7818900 bytes
+2024-11-16 18:43:18.870 -05:00 [WRN] File uploaded exceeds maximum size. File size: 7818900 bytes, Max allowed size: 5242880 bytes

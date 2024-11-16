@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "File Size Error";
+}
+
+<div class="alert alert-danger">
+    <h4 class="alert-heading">File Size Too Large</h4>
+    <p>The file you uploaded exceeds the 5 MB size limit. Please upload a smaller file.</p>
+    <a href="@Url.Action("Create", "Articles")" class="btn btn-secondary">Go Back to Create Article</a>
+</div>

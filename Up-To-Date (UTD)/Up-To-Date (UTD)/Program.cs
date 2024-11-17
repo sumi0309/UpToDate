@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Up_To_Date__UTD_.Data;
@@ -31,7 +32,11 @@ namespace Up_To_Date__UTD_
 
                 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddRoles<IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
-                builder.Services.AddControllersWithViews();
+
+                builder.Services.AddControllersWithViews(options =>
+                {
+                    options.Filters.Add(new RequireHttpsAttribute());
+                });
 
                 var app = builder.Build();
 

@@ -1,0 +1,225 @@
+2024-11-17 10:28:32.908 -05:00 [INF] Starting the application
+2024-11-17 10:28:37.243 -05:00 [INF] Authorization roles created.
+2024-11-17 10:28:37.471 -05:00 [INF] Roles assigned.
+2024-11-17 10:28:38.797 -05:00 [INF] HomeController initialized.
+2024-11-17 10:28:38.798 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:29:12.536 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-17 10:29:12.900 -05:00 [WRN] Password verification failed for user: sumi0309@umd.edu
+2024-11-17 10:29:21.271 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-17 10:29:21.602 -05:00 [WRN] Password verification failed for user: sumi0309@umd.edu
+2024-11-17 10:29:29.729 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-17 10:29:29.879 -05:00 [WRN] Password verification failed for user: sumi0309@umd.edu
+2024-11-17 10:29:38.607 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-17 10:29:38.709 -05:00 [WRN] Password verification failed for user: sumi0309@umd.edu
+2024-11-17 10:30:30.318 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:30:30.616 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:30:38.809 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:30:38.946 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:32:22.389 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:32:22.629 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:32:28.817 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:32:28.990 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:33:12.898 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:33:13.182 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:33:17.358 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:33:17.518 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:33:43.398 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-17 10:33:43.623 -05:00 [WRN] Password verification failed for user: sumi0309@umd.edu
+2024-11-17 10:34:47.896 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:34:48.105 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:35:11.761 -05:00 [INF] HomeController initialized.
+2024-11-17 10:35:11.761 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:36:10.812 -05:00 [INF] HomeController initialized.
+2024-11-17 10:36:10.812 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:36:25.036 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:36:25.320 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:36:33.919 -05:00 [INF] HomeController initialized.
+2024-11-17 10:36:33.920 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:37:21.093 -05:00 [INF] HomeController initialized.
+2024-11-17 10:37:21.093 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:37:46.826 -05:00 [INF] Hashing password for user: sumi0309@umd.edu
+2024-11-17 10:37:47.090 -05:00 [INF] Password hashed successfully for user: sumi0309@umd.edu
+2024-11-17 10:37:47.141 -05:00 [INF] Adding new entity: IdentityUser, Data: {"Id":"94fed365-962b-4a52-8b10-b453a5fb8c46","UserName":"sumi0309@umd.edu","NormalizedUserName":"SUMI0309@UMD.EDU","Email":"sumi0309@umd.edu","NormalizedEmail":"SUMI0309@UMD.EDU","EmailConfirmed":false,"PasswordHash":"zviMcRhXsYeTuEIy58kP4JFzuh8/eWDS2jW3q3QqocBxtZzy5VYb/YvYEsCjpLC6","SecurityStamp":"ZWVFWB32JYQ3VGPZ7TXIGYEGY6PMI7VI","ConcurrencyStamp":"79a1d627-3fd9-4b32-99a4-a874c479a71f","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-17 10:37:47.240 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:37:51.882 -05:00 [INF] Modifying entity: IdentityUser, Data: {"Id":"94fed365-962b-4a52-8b10-b453a5fb8c46","UserName":"sumi0309@umd.edu","NormalizedUserName":"SUMI0309@UMD.EDU","Email":"sumi0309@umd.edu","NormalizedEmail":"SUMI0309@UMD.EDU","EmailConfirmed":true,"PasswordHash":"zviMcRhXsYeTuEIy58kP4JFzuh8/eWDS2jW3q3QqocBxtZzy5VYb/YvYEsCjpLC6","SecurityStamp":"ZWVFWB32JYQ3VGPZ7TXIGYEGY6PMI7VI","ConcurrencyStamp":"073d3a64-ca73-4336-923b-66f762153b59","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-17 10:37:51.903 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:37:55.504 -05:00 [INF] HomeController initialized.
+2024-11-17 10:37:55.504 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:38:16.970 -05:00 [INF] Hashing password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:38:17.152 -05:00 [INF] Password hashed successfully for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:38:17.160 -05:00 [INF] Adding new entity: IdentityUser, Data: {"Id":"ab73746d-6f94-4c65-80fa-150e36879f06","UserName":"sumiranjaiswal03@gmail.com","NormalizedUserName":"SUMIRANJAISWAL03@GMAIL.COM","Email":"sumiranjaiswal03@gmail.com","NormalizedEmail":"SUMIRANJAISWAL03@GMAIL.COM","EmailConfirmed":false,"PasswordHash":"uePg3uai9nhwtG4HuF11w+PcFXQ9vO46UDnb8G3fQ//aO+KkCB8IOMeS+bpa4+JR","SecurityStamp":"DFJIAADCHH2YF4RKCHGI4BQU53M37NUV","ConcurrencyStamp":"84bf8a60-f554-432f-ac10-3a537d9354ce","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-17 10:38:17.168 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:38:19.131 -05:00 [INF] Modifying entity: IdentityUser, Data: {"Id":"ab73746d-6f94-4c65-80fa-150e36879f06","UserName":"sumiranjaiswal03@gmail.com","NormalizedUserName":"SUMIRANJAISWAL03@GMAIL.COM","Email":"sumiranjaiswal03@gmail.com","NormalizedEmail":"SUMIRANJAISWAL03@GMAIL.COM","EmailConfirmed":true,"PasswordHash":"uePg3uai9nhwtG4HuF11w+PcFXQ9vO46UDnb8G3fQ//aO+KkCB8IOMeS+bpa4+JR","SecurityStamp":"DFJIAADCHH2YF4RKCHGI4BQU53M37NUV","ConcurrencyStamp":"40fcc0b4-d624-4146-8887-98edd5ff9747","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-17 10:38:19.138 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:38:20.949 -05:00 [INF] HomeController initialized.
+2024-11-17 10:38:20.949 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:38:32.465 -05:00 [INF] Hashing password for user: sumiranjaiswal09@gmail.com
+2024-11-17 10:38:32.610 -05:00 [INF] Password hashed successfully for user: sumiranjaiswal09@gmail.com
+2024-11-17 10:38:32.617 -05:00 [INF] Adding new entity: IdentityUser, Data: {"Id":"f54fc1f0-5180-402a-bdb0-dd55880bdf19","UserName":"sumiranjaiswal09@gmail.com","NormalizedUserName":"SUMIRANJAISWAL09@GMAIL.COM","Email":"sumiranjaiswal09@gmail.com","NormalizedEmail":"SUMIRANJAISWAL09@GMAIL.COM","EmailConfirmed":false,"PasswordHash":"fQSCxpr7Zs9vogGMNH2I/bqTbIGreikfYOnxRfkX4wWiyWqoWz7xb2HqmGA15SLg","SecurityStamp":"V34HRGKGTPBHEYS2ABEQKIFRD7H3FLXB","ConcurrencyStamp":"0d976912-2333-45ac-b642-eeb4b77cc1ba","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-17 10:38:32.622 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:38:33.899 -05:00 [INF] Modifying entity: IdentityUser, Data: {"Id":"f54fc1f0-5180-402a-bdb0-dd55880bdf19","UserName":"sumiranjaiswal09@gmail.com","NormalizedUserName":"SUMIRANJAISWAL09@GMAIL.COM","Email":"sumiranjaiswal09@gmail.com","NormalizedEmail":"SUMIRANJAISWAL09@GMAIL.COM","EmailConfirmed":true,"PasswordHash":"fQSCxpr7Zs9vogGMNH2I/bqTbIGreikfYOnxRfkX4wWiyWqoWz7xb2HqmGA15SLg","SecurityStamp":"V34HRGKGTPBHEYS2ABEQKIFRD7H3FLXB","ConcurrencyStamp":"5f10274a-4fe6-4446-b112-a5d856ae1990","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-17 10:38:33.908 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:38:35.471 -05:00 [INF] HomeController initialized.
+2024-11-17 10:38:35.471 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:39:02.847 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:39:03.128 -05:00 [INF] Password verification successful for user: sumiranjaiswal03@gmail.com
+2024-11-17 10:39:03.223 -05:00 [INF] HomeController initialized.
+2024-11-17 10:39:03.223 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:39:07.538 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-17 10:39:07.538 -05:00 [INF] Fetching the list of articles.
+2024-11-17 10:39:12.506 -05:00 [INF] NewsController initialized.
+2024-11-17 10:39:12.555 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:39:12.665 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:39:13.653 -05:00 [INF] NewsController initialized.
+2024-11-17 10:39:13.653 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:39:13.654 -05:00 [WRN] Unauthorized create attempt: User sumiranjaiswal03@gmail.com tried to create a news
+2024-11-17 10:39:17.205 -05:00 [INF] NewsController initialized.
+2024-11-17 10:39:17.205 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:39:17.205 -05:00 [WRN] Unauthorized create attempt: User sumiranjaiswal03@gmail.com tried to create a news
+2024-11-17 10:39:31.748 -05:00 [INF] NewsController initialized.
+2024-11-17 10:39:31.748 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:39:31.757 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:39:33.084 -05:00 [INF] HomeController initialized.
+2024-11-17 10:39:33.084 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:39:39.684 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-17 10:39:39.816 -05:00 [INF] Password verification successful for user: sumi0309@umd.edu
+2024-11-17 10:39:39.839 -05:00 [INF] HomeController initialized.
+2024-11-17 10:39:39.840 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:39:42.480 -05:00 [INF] NewsController initialized.
+2024-11-17 10:39:42.480 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:39:42.490 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:39:43.899 -05:00 [INF] NewsController initialized.
+2024-11-17 10:39:43.899 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:39:43.899 -05:00 [WRN] Unauthorized create attempt: User sumi0309@umd.edu tried to create a news
+2024-11-17 10:40:04.656 -05:00 [INF] HomeController initialized.
+2024-11-17 10:40:04.656 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:40:10.116 -05:00 [INF] HomeController initialized.
+2024-11-17 10:40:10.116 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:40:11.730 -05:00 [INF] NewsController initialized.
+2024-11-17 10:40:11.730 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:40:11.741 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:40:13.263 -05:00 [INF] NewsController initialized.
+2024-11-17 10:40:13.263 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:40:13.263 -05:00 [WRN] Unauthorized create attempt: User sumi0309@umd.edu tried to create a news
+2024-11-17 10:40:34.143 -05:00 [INF] NewsController initialized.
+2024-11-17 10:40:34.143 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:40:34.143 -05:00 [WRN] Unauthorized create attempt: User sumi0309@umd.edu tried to create a news
+2024-11-17 10:40:35.121 -05:00 [INF] HomeController initialized.
+2024-11-17 10:40:35.121 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:40:41.429 -05:00 [INF] HomeController initialized.
+2024-11-17 10:40:41.429 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:40:52.693 -05:00 [INF] Starting the application
+2024-11-17 10:40:55.169 -05:00 [INF] Authorization roles created.
+2024-11-17 10:40:55.398 -05:00 [INF] Adding new entity: IdentityUserRole`1, Data: {"UserId":"94fed365-962b-4a52-8b10-b453a5fb8c46","RoleId":"6da93457-6ed8-493d-807b-64dbc82fb1cf","$type":"IdentityUserRole`1"}
+2024-11-17 10:40:55.405 -05:00 [INF] Modifying entity: IdentityUser, Data: {"Id":"94fed365-962b-4a52-8b10-b453a5fb8c46","UserName":"sumi0309@umd.edu","NormalizedUserName":"SUMI0309@UMD.EDU","Email":"sumi0309@umd.edu","NormalizedEmail":"SUMI0309@UMD.EDU","EmailConfirmed":true,"PasswordHash":"zviMcRhXsYeTuEIy58kP4JFzuh8/eWDS2jW3q3QqocBxtZzy5VYb/YvYEsCjpLC6","SecurityStamp":"ZWVFWB32JYQ3VGPZ7TXIGYEGY6PMI7VI","ConcurrencyStamp":"6e1512fb-fbce-4b82-a9e3-d40f277d3828","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-17 10:40:55.506 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:40:55.535 -05:00 [INF] Adding new entity: IdentityUserRole`1, Data: {"UserId":"f54fc1f0-5180-402a-bdb0-dd55880bdf19","RoleId":"1e96e16f-dbc9-4558-88fc-ae5d64737dca","$type":"IdentityUserRole`1"}
+2024-11-17 10:40:55.535 -05:00 [INF] Modifying entity: IdentityUser, Data: {"Id":"f54fc1f0-5180-402a-bdb0-dd55880bdf19","UserName":"sumiranjaiswal09@gmail.com","NormalizedUserName":"SUMIRANJAISWAL09@GMAIL.COM","Email":"sumiranjaiswal09@gmail.com","NormalizedEmail":"SUMIRANJAISWAL09@GMAIL.COM","EmailConfirmed":true,"PasswordHash":"fQSCxpr7Zs9vogGMNH2I/bqTbIGreikfYOnxRfkX4wWiyWqoWz7xb2HqmGA15SLg","SecurityStamp":"V34HRGKGTPBHEYS2ABEQKIFRD7H3FLXB","ConcurrencyStamp":"28c19550-31bd-42fd-a607-677f80f4c592","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-17 10:40:55.543 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:40:55.543 -05:00 [INF] Roles assigned.
+2024-11-17 10:40:56.156 -05:00 [INF] HomeController initialized.
+2024-11-17 10:40:56.158 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:41:03.460 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-17 10:41:03.843 -05:00 [INF] Password verification successful for user: sumi0309@umd.edu
+2024-11-17 10:41:03.956 -05:00 [INF] HomeController initialized.
+2024-11-17 10:41:03.956 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:41:05.895 -05:00 [INF] NewsController initialized.
+2024-11-17 10:41:05.911 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:41:06.016 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:41:07.032 -05:00 [INF] NewsController initialized.
+2024-11-17 10:41:07.033 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:41:12.195 -05:00 [INF] NewsController initialized.
+2024-11-17 10:41:12.209 -05:00 [INF] Adding new entity: News, Data: {"Id":0,"NewsHeading":"test","NewsDescription":"test","$type":"News"}
+2024-11-17 10:41:12.242 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:41:12.242 -05:00 [INF] New news item created with ID: 16, Heading: test.
+2024-11-17 10:41:12.249 -05:00 [INF] NewsController initialized.
+2024-11-17 10:41:12.249 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:41:12.260 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:41:14.128 -05:00 [INF] NewsController initialized.
+2024-11-17 10:41:14.133 -05:00 [INF] Fetching news list. Page number: 3, Page size: 5
+2024-11-17 10:41:14.142 -05:00 [INF] Fetched 2 news items for page 3.
+2024-11-17 10:41:58.090 -05:00 [INF] NewsController initialized.
+2024-11-17 10:41:58.103 -05:00 [INF] Accessed delete view for news item with ID: 16.
+2024-11-17 10:42:19.238 -05:00 [INF] NewsController initialized.
+2024-11-17 10:42:19.284 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:42:19.285 -05:00 [INF] News item with ID: 16 deleted successfully.
+2024-11-17 10:42:19.295 -05:00 [INF] NewsController initialized.
+2024-11-17 10:42:19.295 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:42:19.309 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:42:35.480 -05:00 [INF] HomeController initialized.
+2024-11-17 10:42:35.480 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:42:49.843 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal09@gmail.com
+2024-11-17 10:42:50.174 -05:00 [INF] Password verification successful for user: sumiranjaiswal09@gmail.com
+2024-11-17 10:42:50.219 -05:00 [INF] HomeController initialized.
+2024-11-17 10:42:50.220 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:42:52.343 -05:00 [INF] NewsController initialized.
+2024-11-17 10:42:52.344 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:42:52.358 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:42:54.816 -05:00 [INF] NewsController initialized.
+2024-11-17 10:42:54.822 -05:00 [INF] Accessed delete view for news item with ID: 1.
+2024-11-17 10:42:54.823 -05:00 [WRN] Unauthorized delete attempt: User sumiranjaiswal09@gmail.com tried to delete news with ID: 1.
+2024-11-17 10:42:57.207 -05:00 [INF] NewsController initialized.
+2024-11-17 10:42:57.213 -05:00 [INF] Accessed delete view for news item with ID: 1.
+2024-11-17 10:42:57.213 -05:00 [WRN] Unauthorized delete attempt: User sumiranjaiswal09@gmail.com tried to delete news with ID: 1.
+2024-11-17 10:42:57.902 -05:00 [INF] NewsController initialized.
+2024-11-17 10:42:57.902 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:42:57.924 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:43:12.844 -05:00 [INF] NewsController initialized.
+2024-11-17 10:43:12.851 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-17 10:43:17.057 -05:00 [INF] NewsController initialized.
+2024-11-17 10:43:17.059 -05:00 [INF] Modifying entity: News, Data: {"Id":1,"NewsHeading":"Meals on Wheels College Park turns 50, gets surprise from News4","NewsDescription":"Meals on Wheels College Park is celebrating 50 years of fighting food insecurity in the community, but its leaders say it needs more donations and volunteers..","$type":"News"}
+2024-11-17 10:43:17.072 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:43:17.073 -05:00 [INF] News item with ID: 1 updated successfully.
+2024-11-17 10:43:17.084 -05:00 [INF] NewsController initialized.
+2024-11-17 10:43:17.084 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:43:17.095 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:43:38.610 -05:00 [INF] NewsController initialized.
+2024-11-17 10:43:38.617 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-17 10:43:41.720 -05:00 [INF] NewsController initialized.
+2024-11-17 10:43:41.721 -05:00 [INF] Modifying entity: News, Data: {"Id":1,"NewsHeading":"Meals on Wheels College Park turns 50, gets surprise from News4","NewsDescription":"Meals on Wheels College Park is celebrating 50 years of fighting food insecurity in the community, but its leaders say it needs more donations and volunteers.","$type":"News"}
+2024-11-17 10:43:41.729 -05:00 [INF] Database changes saved successfully.
+2024-11-17 10:43:41.729 -05:00 [INF] News item with ID: 1 updated successfully.
+2024-11-17 10:43:41.735 -05:00 [INF] NewsController initialized.
+2024-11-17 10:43:41.735 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:43:41.744 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:43:45.806 -05:00 [INF] NewsController initialized.
+2024-11-17 10:43:45.807 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:43:45.807 -05:00 [WRN] Unauthorized create attempt: User sumiranjaiswal09@gmail.com tried to create a news
+2024-11-17 10:43:52.336 -05:00 [INF] HomeController initialized.
+2024-11-17 10:43:52.336 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:44:01.518 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 10:44:01.518 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 10:44:01.555 -05:00 [INF] Total suggestions fetched: 3
+2024-11-17 10:44:03.707 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-17 10:44:03.707 -05:00 [INF] Fetching the list of articles.
+2024-11-17 10:44:07.445 -05:00 [INF] HomeController initialized.
+2024-11-17 10:44:07.445 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:44:15.242 -05:00 [INF] Verifying hashed password for user: jaiswalsumiran31@gmail.com
+2024-11-17 10:44:15.391 -05:00 [INF] Password verification successful for user: jaiswalsumiran31@gmail.com
+2024-11-17 10:44:15.419 -05:00 [INF] HomeController initialized.
+2024-11-17 10:44:15.419 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:44:17.808 -05:00 [INF] NewsController initialized.
+2024-11-17 10:44:17.809 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:44:17.819 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:44:18.946 -05:00 [INF] NewsController initialized.
+2024-11-17 10:44:18.946 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:44:18.946 -05:00 [WRN] Unauthorized create attempt: User jaiswalsumiran31@gmail.com tried to create a news
+2024-11-17 10:44:24.476 -05:00 [INF] NewsController initialized.
+2024-11-17 10:44:24.476 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-17 10:44:24.476 -05:00 [WRN] Unauthorized create attempt: User jaiswalsumiran31@gmail.com tried to create a news
+2024-11-17 10:44:26.012 -05:00 [INF] NewsController initialized.
+2024-11-17 10:44:26.013 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-17 10:44:26.022 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-17 10:44:26.940 -05:00 [INF] NewsController initialized.
+2024-11-17 10:44:26.946 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-17 10:44:26.946 -05:00 [WRN] Unauthorized edit attempt: User jaiswalsumiran31@gmail.com tried to edit news with ID: 1.
+2024-11-17 10:44:30.038 -05:00 [INF] NewsController initialized.
+2024-11-17 10:44:30.044 -05:00 [INF] Accessed edit view for news item with ID: 1.
+2024-11-17 10:44:30.044 -05:00 [WRN] Unauthorized edit attempt: User jaiswalsumiran31@gmail.com tried to edit news with ID: 1.
+2024-11-17 10:44:31.044 -05:00 [INF] HomeController initialized.
+2024-11-17 10:44:31.044 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:52:55.356 -05:00 [INF] Starting the application
+2024-11-17 10:52:58.810 -05:00 [INF] Authorization roles created.
+2024-11-17 10:52:59.005 -05:00 [INF] Roles assigned.
+2024-11-17 10:52:59.871 -05:00 [INF] HomeController initialized.
+2024-11-17 10:52:59.874 -05:00 [INF] Accessed the Home page.

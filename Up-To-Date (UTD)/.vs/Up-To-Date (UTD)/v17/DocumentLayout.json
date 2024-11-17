@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,34 +14,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Properties\\launchSettings.json",
-              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Up-To-Date (UTD)\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-17T15:51:20.175Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Program.cs",
               "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Program.cs",
               "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Program.cs",
               "RelativeToolTip": "Up-To-Date (UTD)\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T15:22:14.832Z",
               "EditorCaption": ""

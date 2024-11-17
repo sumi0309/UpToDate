@@ -31,7 +31,7 @@ namespace Up_To_Date__UTD_
                 builder.Services.AddSingleton<IPasswordHasher<IdentityUser>, Argon2PasswordHasher>();
 
                 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddRoles<IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+                    .AddRoles<IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
                 builder.Services.AddControllersWithViews(options =>
                 {

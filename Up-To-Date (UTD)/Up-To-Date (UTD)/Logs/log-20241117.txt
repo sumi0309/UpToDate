@@ -223,3 +223,22 @@
 2024-11-17 10:52:59.005 -05:00 [INF] Roles assigned.
 2024-11-17 10:52:59.871 -05:00 [INF] HomeController initialized.
 2024-11-17 10:52:59.874 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:56:38.229 -05:00 [INF] Starting the application
+2024-11-17 10:56:41.924 -05:00 [INF] Authorization roles created.
+2024-11-17 10:56:42.138 -05:00 [INF] Roles assigned.
+2024-11-17 10:56:42.954 -05:00 [INF] HomeController initialized.
+2024-11-17 10:56:42.956 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:57:21.323 -05:00 [INF] HomeController initialized.
+2024-11-17 10:57:21.323 -05:00 [INF] Accessed the Home page.
+2024-11-17 10:58:26.699 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-17 10:58:26.701 -05:00 [INF] Fetching the list of articles.
+2024-11-17 10:58:31.764 -05:00 [INF] HomeController initialized.
+2024-11-17 10:58:31.764 -05:00 [INF] Accessed the Home page.
+2024-11-17 11:00:05.853 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 11:00:06.267 -05:00 [INF] Password verification successful for user: sumiranjaiswal03@gmail.com
+2024-11-17 11:00:06.366 -05:00 [INF] HomeController initialized.
+2024-11-17 11:00:06.366 -05:00 [INF] Accessed the Home page.
+2024-11-17 11:01:56.536 -05:00 [INF] HomeController initialized.
+2024-11-17 11:01:56.537 -05:00 [INF] Accessed the Home page.
+2024-11-17 11:05:03.634 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-17 11:05:04.070 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com

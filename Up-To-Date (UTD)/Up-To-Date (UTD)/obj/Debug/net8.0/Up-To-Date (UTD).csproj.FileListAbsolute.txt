@@ -586,3 +586,5 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Se
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Konscious.Security.Cryptography.Argon2.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Konscious.Security.Cryptography.Blake2.dll

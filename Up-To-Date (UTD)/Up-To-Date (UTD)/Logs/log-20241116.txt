@@ -416,3 +416,42 @@
 2024-11-16 18:43:18.869 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
 2024-11-16 18:43:18.870 -05:00 [INF] Processing file upload: Week 7 - Architecture Design.pdf, Size: 7818900 bytes
 2024-11-16 18:43:18.870 -05:00 [WRN] File uploaded exceeds maximum size. File size: 7818900 bytes, Max allowed size: 5242880 bytes
+2024-11-16 18:57:41.200 -05:00 [INF] Starting the application
+2024-11-16 18:57:44.165 -05:00 [INF] Authorization roles created.
+2024-11-16 18:57:44.352 -05:00 [INF] Roles assigned.
+2024-11-16 18:57:45.112 -05:00 [INF] HomeController initialized.
+2024-11-16 18:57:45.114 -05:00 [INF] Accessed the Home page.
+2024-11-16 18:57:48.276 -05:00 [INF] HomeController initialized.
+2024-11-16 18:57:48.276 -05:00 [INF] Accessed the Home page.
+2024-11-16 18:58:11.402 -05:00 [INF] Adding new entity: IdentityUser, Data: {"Id":"b29785f8-139b-4002-ad59-9c54ca8acf4c","UserName":"jaiswalsumiran31@gmail.com","NormalizedUserName":"JAISWALSUMIRAN31@GMAIL.COM","Email":"jaiswalsumiran31@gmail.com","NormalizedEmail":"JAISWALSUMIRAN31@GMAIL.COM","EmailConfirmed":false,"PasswordHash":"RVI9XSeU84gynD7HyWm424TDu2gybxx6RNAevcVu7tcp79gshBNy4eR0i8GTDZjM","SecurityStamp":"QVQQYDE3HNFKNITFPSQLIMTFSOD32MGA","ConcurrencyStamp":"8511e611-bed3-44b3-965b-3d6789da9d9d","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-16 18:58:11.497 -05:00 [INF] Database changes saved successfully.
+2024-11-16 18:59:05.250 -05:00 [INF] HomeController initialized.
+2024-11-16 18:59:05.250 -05:00 [INF] Accessed the Home page.
+2024-11-16 18:59:07.327 -05:00 [INF] HomeController initialized.
+2024-11-16 18:59:07.328 -05:00 [INF] Accessed the Home page.
+2024-11-16 19:02:50.522 -05:00 [INF] HomeController initialized.
+2024-11-16 19:02:50.522 -05:00 [INF] Accessed the Home page.
+2024-11-16 19:05:27.611 -05:00 [INF] Starting the application
+2024-11-16 19:05:29.910 -05:00 [INF] Authorization roles created.
+2024-11-16 19:05:30.097 -05:00 [INF] Roles assigned.
+2024-11-16 19:05:30.737 -05:00 [INF] HomeController initialized.
+2024-11-16 19:05:30.739 -05:00 [INF] Accessed the Home page.
+2024-11-16 19:06:09.927 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-16 19:06:09.929 -05:00 [INF] Fetching the list of articles.
+2024-11-16 19:06:14.772 -05:00 [INF] HomeController initialized.
+2024-11-16 19:06:14.772 -05:00 [INF] Accessed the Home page.
+2024-11-16 19:06:29.935 -05:00 [INF] Hashing password for user: 5374ef73-e925-4369-88e6-e6144ec3a74e
+2024-11-16 19:06:30.375 -05:00 [INF] Password hashed successfully for user: 5374ef73-e925-4369-88e6-e6144ec3a74e
+2024-11-16 19:06:30.434 -05:00 [INF] Adding new entity: IdentityUser, Data: {"Id":"5374ef73-e925-4369-88e6-e6144ec3a74e","UserName":"jaiswalsumiran31@gmail.com","NormalizedUserName":"JAISWALSUMIRAN31@GMAIL.COM","Email":"jaiswalsumiran31@gmail.com","NormalizedEmail":"JAISWALSUMIRAN31@GMAIL.COM","EmailConfirmed":false,"PasswordHash":"PdoNZK6gyJ6dj/yHlt1VgtTSqshs8DT5EHmmUhZJn+L7c/fTEKU93Pp5ykycdVEu","SecurityStamp":"YVDKF2UAELAKZGWQN2GNVWVKPQ6FHGAH","ConcurrencyStamp":"41ba8cdf-6e37-4fa4-ae04-8b8cf0873aac","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-16 19:06:30.524 -05:00 [INF] Database changes saved successfully.
+2024-11-16 19:08:40.534 -05:00 [INF] Starting the application
+2024-11-16 19:08:43.634 -05:00 [INF] Authorization roles created.
+2024-11-16 19:08:43.844 -05:00 [INF] Roles assigned.
+2024-11-16 19:08:44.515 -05:00 [INF] HomeController initialized.
+2024-11-16 19:08:44.517 -05:00 [INF] Accessed the Home page.
+2024-11-16 19:09:05.012 -05:00 [INF] Hashing password for user: jaiswalsumiran31@gmail.com
+2024-11-16 19:09:05.323 -05:00 [INF] Password hashed successfully for user: jaiswalsumiran31@gmail.com
+2024-11-16 19:09:05.382 -05:00 [INF] Adding new entity: IdentityUser, Data: {"Id":"c2ffcead-ff76-4f4a-8164-03aa2320c82c","UserName":"jaiswalsumiran31@gmail.com","NormalizedUserName":"JAISWALSUMIRAN31@GMAIL.COM","Email":"jaiswalsumiran31@gmail.com","NormalizedEmail":"JAISWALSUMIRAN31@GMAIL.COM","EmailConfirmed":false,"PasswordHash":"eqVkaFK3KwHpfFNNi/6mw+y2xUmOn99Kr2pGaBQCKUwcyer1SSj4YUH3srt/vhW7","SecurityStamp":"OMUSU7HN2PDIILSX3M4OYC4ARIAALMYG","ConcurrencyStamp":"1db7782c-fc34-4d42-9beb-348ccd455ced","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":true,"AccessFailedCount":0,"$type":"IdentityUser"}
+2024-11-16 19:09:05.470 -05:00 [INF] Database changes saved successfully.
+2024-11-16 19:09:06.759 -05:00 [INF] HomeController initialized.
+2024-11-16 19:09:06.759 -05:00 [INF] Accessed the Home page.

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Up_To_Date__UTD_.Data;
+using Up_To_Date__UTD_.Utils;
 
 namespace Up_To_Date__UTD_
 {
@@ -25,6 +26,8 @@ namespace Up_To_Date__UTD_
                 builder.Services.AddDbContext<ApplicationDbContext>(options =>
                     options.UseSqlServer(connectionString));
                 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+                builder.Services.AddSingleton<IPasswordHasher<IdentityUser>, Argon2PasswordHasher>();
 
                 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddRoles<IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();

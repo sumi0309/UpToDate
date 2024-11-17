@@ -96,6 +96,13 @@ namespace Up_To_Date__UTD_
                     Log.Information("Roles assigned.");
                 }
 
+                //app.Use(async (context, next) =>
+                //{
+                //    context.Response.Headers.Append("Content-Security-Policy",
+                //        "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self';");
+                //    await next();
+                //});
+
                 app.UseHttpsRedirection();
                 app.UseStaticFiles();
 

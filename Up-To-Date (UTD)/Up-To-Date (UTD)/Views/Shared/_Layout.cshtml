@@ -39,6 +39,20 @@
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
+                    @if (Context.Request.Path.Value.Contains("/Account/Login"))
+                    {
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                const emailField = document.querySelector('input[name="Input.Email"]');
+                                const passwordField = document.querySelector('input[name="Input.Password"]');
+                                const confirmPasswordField = document.querySelector('input[name="Input.ConfirmPassword"]');
+
+                                if (emailField) emailField.setAttribute("autocomplete", "off");
+                                if (passwordField) passwordField.setAttribute("autocomplete", "off");
+                                if (confirmPasswordField) confirmPasswordField.setAttribute("autocomplete", "off");
+                            });
+                        </script>
+                    }
                 </div>
             </div>
         </nav>

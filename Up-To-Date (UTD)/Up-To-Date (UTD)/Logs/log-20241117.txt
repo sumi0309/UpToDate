@@ -242,3 +242,34 @@
 2024-11-17 11:01:56.537 -05:00 [INF] Accessed the Home page.
 2024-11-17 11:05:03.634 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
 2024-11-17 11:05:04.070 -05:00 [WRN] Password verification failed for user: sumiranjaiswal03@gmail.com
+2024-11-17 17:23:30.378 -05:00 [INF] Starting the application
+2024-11-17 17:23:34.976 -05:00 [INF] Authorization roles created.
+2024-11-17 17:23:35.208 -05:00 [INF] Roles assigned.
+2024-11-17 17:23:36.899 -05:00 [INF] HomeController initialized.
+2024-11-17 17:23:36.901 -05:00 [INF] Accessed the Home page.
+2024-11-17 17:23:45.801 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-17 17:23:46.245 -05:00 [INF] Password verification successful for user: sumi0309@umd.edu
+2024-11-17 17:23:46.365 -05:00 [INF] NewsController initialized.
+2024-11-17 17:23:46.367 -05:00 [INF] Accessed news search form.
+2024-11-17 17:23:48.556 -05:00 [INF] HomeController initialized.
+2024-11-17 17:23:48.556 -05:00 [INF] Accessed the Home page.
+2024-11-17 17:26:53.314 -05:00 [INF] Starting the application
+2024-11-17 17:26:56.304 -05:00 [INF] Authorization roles created.
+2024-11-17 17:26:56.468 -05:00 [INF] Roles assigned.
+2024-11-17 17:26:57.303 -05:00 [INF] HomeController initialized.
+2024-11-17 17:26:57.304 -05:00 [INF] Accessed the Home page.
+2024-11-17 17:36:05.595 -05:00 [INF] Starting the application
+2024-11-17 17:36:10.012 -05:00 [INF] Authorization roles created.
+2024-11-17 17:36:10.284 -05:00 [INF] Roles assigned.
+2024-11-17 17:36:11.270 -05:00 [INF] HomeController initialized.
+2024-11-17 17:36:11.274 -05:00 [INF] Accessed the Home page.
+2024-11-17 17:36:13.241 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-17 17:36:13.243 -05:00 [INF] Fetching the list of articles.
+2024-11-17 17:36:15.366 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:36:15.367 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:36:15.399 -05:00 [INF] Total suggestions fetched: 3
+2024-11-17 17:39:15.703 -05:00 [INF] Starting the application
+2024-11-17 17:39:19.170 -05:00 [INF] Authorization roles created.
+2024-11-17 17:39:19.412 -05:00 [INF] Roles assigned.
+2024-11-17 17:39:20.192 -05:00 [INF] HomeController initialized.
+2024-11-17 17:39:20.194 -05:00 [INF] Accessed the Home page.

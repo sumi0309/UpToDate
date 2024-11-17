@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Up-To-Date (UTD).Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+705a8a4fb125b130292e71da6885faaccc746f32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a473a0b0ac172b20274467791f37aba926d015f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Up-To-Date (UTD).Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Up-To-Date (UTD).Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

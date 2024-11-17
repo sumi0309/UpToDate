@@ -1,21 +1,22 @@
 ﻿<div class="container mt-5">
     <h2 class="mb-4 text-light bg-secondary text-center" style="width: 50%; margin: 0 auto;">Find your Interest</h2>
-<hr />
+    <hr />
 
-<div class="row justify-content-center">
-    <div class="col-md-6">
-        <form asp-action="ShowSearchResults" class="p-4 border rounded shadow-sm" style="background-color: #f8f9fa;">
-            <div class="form-group mb-3">
-                <label for="SearchPhrase" class="control-label">Search News</label>
-                <input type="text" name="SearchPhrase" class="form-control" placeholder="What are you looking for?" required />
-            </div>
-            <div class="form-group mb-4">
-                <input type="submit" value="Search News" class="btn btn-outline-info btn-block" />
-            </div>
-        </form>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form asp-action="ShowSearchResults" class="p-4 border rounded shadow-sm" style="background-color: #f8f9fa;" autocomplete="off">
+                <div class="form-group mb-3">
+                    <label for="SearchPhrase" class="control-label">Search News</label>
+                    <input type="text" name="SearchPhrase" id="SearchPhrase" class="form-control" placeholder="What are you looking for?" required autocomplete="off" />
+                </div>
+                <div class="form-group mb-4">
+                    <input type="submit" value="Search News" class="btn btn-outline-info btn-block" />
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 
-<div class="text-center mt-3">
-    <a asp-action="Index" class="btn btn-outline-secondary btn-sm">Back to News Feed</a>
+    <div class="text-center mt-3">
+        <a asp-action="Index" class="btn btn-outline-secondary btn-sm">Back to News Feed</a>
+    </div>
 </div>

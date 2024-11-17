@@ -1620,3 +1620,428 @@ Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath
 2024-11-17 13:16:52.502 -05:00 [INF] Total suggestions fetched: 7
 2024-11-17 13:16:52.525 -05:00 [INF] HomeController initialized.
 2024-11-17 13:16:52.525 -05:00 [INF] Accessed the Home page.
+2024-11-17 17:20:26.070 -05:00 [INF] Starting the application
+2024-11-17 17:20:26.070 -05:00 [INF] Starting the application
+2024-11-17 17:20:26.070 -05:00 [INF] Starting the application
+2024-11-17 17:20:26.458 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":1,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:20:26.4308137-05:00","$type":"Suggestion"}
+2024-11-17 17:20:26.458 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":2,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:20:26.4308152-05:00","$type":"Suggestion"}
+2024-11-17 17:20:26.458 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":3,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:20:26.4308067-05:00","$type":"Suggestion"}
+2024-11-17 17:20:26.478 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":5,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:20:26.4308494-05:00","$type":"Suggestion"}
+2024-11-17 17:20:26.478 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":4,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:20:26.4308462-05:00","$type":"Suggestion"}
+2024-11-17 17:20:26.478 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":6,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:20:26.4308412-05:00","$type":"Suggestion"}
+2024-11-17 17:20:26.482 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:20:26.483 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.483 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.483 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.624 -05:00 [INF] Processing file upload: testfile.txt, Size: 20 bytes
+2024-11-17 17:20:26.626 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: testfile.txt
+2024-11-17 17:20:26.639 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:20:26.640 -05:00 [WRN] File upload attempt without file or with empty file.
+2024-11-17 17:20:26.643 -05:00 [INF] Adding new entity: Article, Data: {"Id":1,"Title":"No File Article","Content":"Article without file","FilePath":null,"$type":"Article"}
+2024-11-17 17:20:26.662 -05:00 [ERR] Error occurred while saving database changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+2024-11-17 17:20:26.664 -05:00 [ERR] Error occurred while creating a new article.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+   at Up_To_Date__UTD_.Controllers.ArticlesController.Create(Article article, IFormFile file) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Controllers\ArticlesController.cs:line 87
+2024-11-17 17:20:26.797 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"9aaf9db0-84d1-4688-81e2-cfe6fb613010","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:20:26.797 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"5e66cb30-549f-435f-91ae-48ebbf7bfe89","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:20:26.797 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"b0a9e1cd-e65e-46c3-80fd-37b741b3efda","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:20:26.799 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.799 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.799 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.805 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"a9567de7-fa7a-4351-8841-dbe8081879b2","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:20:26.805 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"f5d6e34c-84da-413b-9784-962fff5c04e2","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:20:26.805 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"6aae4f01-7d9c-4ab2-a39a-4bc3bd47c144","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:20:26.805 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.805 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.805 -05:00 [INF] Authorization roles created.
+2024-11-17 17:20:26.805 -05:00 [INF] Authorization roles created.
+2024-11-17 17:20:26.805 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:26.805 -05:00 [INF] Authorization roles created.
+2024-11-17 17:20:26.835 -05:00 [INF] Roles assigned.
+2024-11-17 17:20:26.835 -05:00 [INF] Roles assigned.
+2024-11-17 17:20:26.835 -05:00 [INF] Roles assigned.
+2024-11-17 17:20:27.379 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:20:27.379 -05:00 [INF] NewsController initialized.
+2024-11-17 17:20:27.384 -05:00 [INF] HomeController initialized.
+2024-11-17 17:20:27.385 -05:00 [INF] Accessed the Privacy page.
+2024-11-17 17:20:27.402 -05:00 [INF] Contents encoded before storing in database to prevent XSS
+2024-11-17 17:20:27.402 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":7,"Content":"New Test Suggestion","DatePosted":"2024-11-17T17:20:27.4020004-05:00","$type":"Suggestion"}
+2024-11-17 17:20:27.403 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:20:27.404 -05:00 [INF] New suggestion created with ID: 7, Content: New Test Suggestion
+2024-11-17 17:20:27.417 -05:00 [INF] Search initiated with phrase: Existing News Heading
+2024-11-17 17:20:27.432 -05:00 [WRN] No search results found for phrase: Existing News Heading
+2024-11-17 17:20:27.432 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:20:27.433 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:20:27.442 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:20:27.490 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:20:27.490 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:20:27.491 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:20:27.500 -05:00 [INF] HomeController initialized.
+2024-11-17 17:20:27.501 -05:00 [ERR] An error occurred with RequestId: 00-ce16198b59ed7559dbf73cc3e0f30e7f-8a34a4038e3ec436-00.
+2024-11-17 17:20:27.508 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:20:27.509 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:20:27.510 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:20:27.522 -05:00 [INF] HomeController initialized.
+2024-11-17 17:20:27.522 -05:00 [INF] Accessed the Home page.
+2024-11-17 17:23:16.322 -05:00 [INF] Starting the application
+2024-11-17 17:23:16.326 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:23:16.322 -05:00 [INF] Starting the application
+2024-11-17 17:23:16.322 -05:00 [INF] Starting the application
+2024-11-17 17:23:16.761 -05:00 [INF] Adding new entity: Article, Data: {"Id":1,"Title":"Test Article 1","Content":"Test Content 1","FilePath":null,"$type":"Article"}
+2024-11-17 17:23:16.762 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":1,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:23:16.7101298-05:00","$type":"Suggestion"}
+2024-11-17 17:23:16.762 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":3,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:23:16.7101419-05:00","$type":"Suggestion"}
+2024-11-17 17:23:16.762 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":2,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:23:16.7101214-05:00","$type":"Suggestion"}
+2024-11-17 17:23:16.772 -05:00 [INF] Adding new entity: Article, Data: {"Id":2,"Title":"Test Article 2","Content":"Test Content 2","FilePath":null,"$type":"Article"}
+2024-11-17 17:23:16.772 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":4,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:23:16.7101823-05:00","$type":"Suggestion"}
+2024-11-17 17:23:16.772 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":6,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:23:16.7101939-05:00","$type":"Suggestion"}
+2024-11-17 17:23:16.772 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":5,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:23:16.7102077-05:00","$type":"Suggestion"}
+2024-11-17 17:23:16.798 -05:00 [ERR] Error occurred while saving database changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChanges() in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 76
+2024-11-17 17:23:16.800 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:16.800 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:16.800 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:16.804 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:23:16.899 -05:00 [INF] Processing file upload: testfile.txt, Size: 20 bytes
+2024-11-17 17:23:16.901 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: testfile.txt
+2024-11-17 17:23:16.915 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:23:16.916 -05:00 [WRN] File upload attempt without file or with empty file.
+2024-11-17 17:23:16.918 -05:00 [INF] Adding new entity: Article, Data: {"Id":1,"Title":"No File Article","Content":"Article without file","FilePath":null,"$type":"Article"}
+2024-11-17 17:23:16.928 -05:00 [ERR] Error occurred while saving database changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+2024-11-17 17:23:16.930 -05:00 [ERR] Error occurred while creating a new article.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+   at Up_To_Date__UTD_.Controllers.ArticlesController.Create(Article article, IFormFile file) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Controllers\ArticlesController.cs:line 87
+2024-11-17 17:23:17.028 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"dfacb7b9-dc45-457b-aaee-475e6ccf122e","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:23:17.028 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"afbe8abb-c452-42ed-b399-98e06ed8dc12","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:23:17.028 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"dce8434d-5559-4ca5-b15f-009fe2d134dd","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:23:17.033 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:17.033 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:17.033 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:17.039 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"e1dcf2ae-a19d-4bee-9b37-23753045fbd1","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:23:17.039 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"9c5b19b8-0103-4f2f-bfae-c6f296ccb528","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:23:17.039 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"a4996561-a8c2-44b3-987d-e1f46e98ac71","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:23:17.039 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:17.039 -05:00 [INF] Authorization roles created.
+2024-11-17 17:23:17.039 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:17.039 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:17.039 -05:00 [INF] Authorization roles created.
+2024-11-17 17:23:17.040 -05:00 [INF] Authorization roles created.
+2024-11-17 17:23:17.075 -05:00 [INF] Roles assigned.
+2024-11-17 17:23:17.075 -05:00 [INF] Roles assigned.
+2024-11-17 17:23:17.075 -05:00 [INF] Roles assigned.
+2024-11-17 17:23:17.426 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:23:17.426 -05:00 [INF] NewsController initialized.
+2024-11-17 17:23:17.432 -05:00 [INF] HomeController initialized.
+2024-11-17 17:23:17.433 -05:00 [INF] Accessed the Privacy page.
+2024-11-17 17:23:17.449 -05:00 [INF] Contents encoded before storing in database to prevent XSS
+2024-11-17 17:23:17.450 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":7,"Content":"New Test Suggestion","DatePosted":"2024-11-17T17:23:17.4499490-05:00","$type":"Suggestion"}
+2024-11-17 17:23:17.451 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:23:17.451 -05:00 [INF] New suggestion created with ID: 7, Content: New Test Suggestion
+2024-11-17 17:23:17.456 -05:00 [INF] Search initiated with phrase: Existing News Heading
+2024-11-17 17:23:17.470 -05:00 [WRN] No search results found for phrase: Existing News Heading
+2024-11-17 17:23:17.473 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:23:17.473 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:23:17.482 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:23:17.532 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:23:17.532 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:23:17.533 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:23:17.543 -05:00 [INF] HomeController initialized.
+2024-11-17 17:23:17.545 -05:00 [ERR] An error occurred with RequestId: 00-365bc6d3d084dee1ff850d3b306f1593-a88c07af01b6bb4e-00.
+2024-11-17 17:23:17.551 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:23:17.551 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:23:17.552 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:23:17.561 -05:00 [INF] HomeController initialized.
+2024-11-17 17:23:17.561 -05:00 [INF] Accessed the Home page.
+2024-11-17 17:34:29.187 -05:00 [INF] Starting the application
+2024-11-17 17:34:29.187 -05:00 [INF] Starting the application
+2024-11-17 17:34:29.187 -05:00 [INF] Starting the application
+2024-11-17 17:34:29.845 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":3,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:34:29.7817159-05:00","$type":"Suggestion"}
+2024-11-17 17:34:29.845 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":1,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:34:29.7817193-05:00","$type":"Suggestion"}
+2024-11-17 17:34:29.845 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":2,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:34:29.7817085-05:00","$type":"Suggestion"}
+2024-11-17 17:34:29.861 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":4,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:34:29.7817547-05:00","$type":"Suggestion"}
+2024-11-17 17:34:29.861 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":6,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:34:29.7817620-05:00","$type":"Suggestion"}
+2024-11-17 17:34:29.861 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":5,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:34:29.7817666-05:00","$type":"Suggestion"}
+2024-11-17 17:34:29.866 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:34:29.870 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:29.870 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:29.870 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:30.091 -05:00 [INF] Processing file upload: testfile.txt, Size: 20 bytes
+2024-11-17 17:34:30.097 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: testfile.txt
+2024-11-17 17:34:30.121 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:34:30.122 -05:00 [WRN] File upload attempt without file or with empty file.
+2024-11-17 17:34:30.127 -05:00 [INF] Adding new entity: Article, Data: {"Id":1,"Title":"No File Article","Content":"Article without file","FilePath":null,"$type":"Article"}
+2024-11-17 17:34:30.145 -05:00 [ERR] Error occurred while saving database changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+2024-11-17 17:34:30.148 -05:00 [ERR] Error occurred while creating a new article.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+   at Up_To_Date__UTD_.Controllers.ArticlesController.Create(Article article, IFormFile file) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Controllers\ArticlesController.cs:line 87
+2024-11-17 17:34:30.333 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"6bc4a5af-5bdc-4988-b060-57690de3f39e","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:34:30.333 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"a05ff1cc-feb7-4962-854d-37483aef50fc","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:34:30.333 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"d9777e8c-1c69-474f-9c51-c854b6c8c6a4","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:34:30.338 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:30.338 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:30.338 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:30.346 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"73f0b4c6-1e77-4259-aefc-f3e3f3b5e740","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:34:30.346 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"382c7242-cda6-4b7d-a1d2-c9a03cea9f3d","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:34:30.346 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"b89d9320-190a-41ad-928a-0477a7fcf526","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:34:30.347 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:30.347 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:30.347 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:30.347 -05:00 [INF] Authorization roles created.
+2024-11-17 17:34:30.347 -05:00 [INF] Authorization roles created.
+2024-11-17 17:34:30.347 -05:00 [INF] Authorization roles created.
+2024-11-17 17:34:30.392 -05:00 [INF] Roles assigned.
+2024-11-17 17:34:30.392 -05:00 [INF] Roles assigned.
+2024-11-17 17:34:30.392 -05:00 [INF] Roles assigned.
+2024-11-17 17:34:31.192 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:34:31.192 -05:00 [INF] NewsController initialized.
+2024-11-17 17:34:31.204 -05:00 [INF] HomeController initialized.
+2024-11-17 17:34:31.205 -05:00 [INF] Accessed the Privacy page.
+2024-11-17 17:34:31.232 -05:00 [INF] Contents encoded before storing in database to prevent XSS
+2024-11-17 17:34:31.233 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":7,"Content":"New Test Suggestion","DatePosted":"2024-11-17T17:34:31.2324461-05:00","$type":"Suggestion"}
+2024-11-17 17:34:31.233 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:34:31.234 -05:00 [INF] New suggestion created with ID: 7, Content: New Test Suggestion
+2024-11-17 17:34:31.242 -05:00 [INF] Search initiated with phrase: Existing News Heading
+2024-11-17 17:34:31.293 -05:00 [WRN] No search results found for phrase: Existing News Heading
+2024-11-17 17:34:31.296 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:34:31.297 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:34:31.310 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:34:31.373 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:34:31.373 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:34:31.374 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:34:31.394 -05:00 [INF] HomeController initialized.
+2024-11-17 17:34:31.397 -05:00 [ERR] An error occurred with RequestId: 00-8e2318dbe165aca18cfc0bd100ca9c96-bb57809b42da643e-00.
+2024-11-17 17:34:31.400 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:34:31.400 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:34:31.401 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:34:31.422 -05:00 [INF] HomeController initialized.
+2024-11-17 17:34:31.422 -05:00 [INF] Accessed the Home page.
+2024-11-17 17:35:46.856 -05:00 [INF] Starting the application
+2024-11-17 17:35:46.856 -05:00 [INF] Starting the application
+2024-11-17 17:35:46.856 -05:00 [INF] Starting the application
+2024-11-17 17:35:47.549 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":1,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:35:47.4668467-05:00","$type":"Suggestion"}
+2024-11-17 17:35:47.549 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":2,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:35:47.4668754-05:00","$type":"Suggestion"}
+2024-11-17 17:35:47.562 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":6,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:35:47.4670562-05:00","$type":"Suggestion"}
+2024-11-17 17:35:47.549 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":3,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:35:47.4668395-05:00","$type":"Suggestion"}
+2024-11-17 17:35:47.563 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":4,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:35:47.4672121-05:00","$type":"Suggestion"}
+2024-11-17 17:35:47.563 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":5,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:35:47.4670706-05:00","$type":"Suggestion"}
+2024-11-17 17:35:47.567 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:35:47.572 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:47.572 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:47.572 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:47.789 -05:00 [INF] Processing file upload: testfile.txt, Size: 20 bytes
+2024-11-17 17:35:47.792 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: testfile.txt
+2024-11-17 17:35:47.816 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:35:47.817 -05:00 [WRN] File upload attempt without file or with empty file.
+2024-11-17 17:35:47.820 -05:00 [INF] Adding new entity: Article, Data: {"Id":1,"Title":"No File Article","Content":"Article without file","FilePath":null,"$type":"Article"}
+2024-11-17 17:35:47.833 -05:00 [ERR] Error occurred while saving database changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+2024-11-17 17:35:47.837 -05:00 [ERR] Error occurred while creating a new article.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+   at Up_To_Date__UTD_.Controllers.ArticlesController.Create(Article article, IFormFile file) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Controllers\ArticlesController.cs:line 87
+2024-11-17 17:35:48.021 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"c15e1510-c224-47d3-b04c-d889001605f6","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:35:48.022 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"eb379884-c6ab-48d2-aead-7ac13d45c23b","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:35:48.021 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"ce433579-9af7-46b8-aea1-2030b80fc05d","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:35:48.026 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:48.026 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:48.026 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:48.034 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"26783f99-b208-4676-8963-60328a914711","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:35:48.034 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"f551f7ca-bffa-4830-bb87-2b343944cf59","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:35:48.034 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"774efd8b-ca6f-4bfb-80ff-6db8f3b9519d","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:35:48.035 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:48.034 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:48.035 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:48.035 -05:00 [INF] Authorization roles created.
+2024-11-17 17:35:48.035 -05:00 [INF] Authorization roles created.
+2024-11-17 17:35:48.035 -05:00 [INF] Authorization roles created.
+2024-11-17 17:35:48.102 -05:00 [INF] Roles assigned.
+2024-11-17 17:35:48.102 -05:00 [INF] Roles assigned.
+2024-11-17 17:35:48.102 -05:00 [INF] Roles assigned.
+2024-11-17 17:35:48.866 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:35:48.866 -05:00 [INF] NewsController initialized.
+2024-11-17 17:35:48.880 -05:00 [INF] HomeController initialized.
+2024-11-17 17:35:48.882 -05:00 [INF] Accessed the Privacy page.
+2024-11-17 17:35:48.901 -05:00 [INF] Contents encoded before storing in database to prevent XSS
+2024-11-17 17:35:48.902 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":7,"Content":"New Test Suggestion","DatePosted":"2024-11-17T17:35:48.9011476-05:00","$type":"Suggestion"}
+2024-11-17 17:35:48.903 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:35:48.904 -05:00 [INF] New suggestion created with ID: 7, Content: New Test Suggestion
+2024-11-17 17:35:48.910 -05:00 [INF] Search initiated with phrase: Existing News Heading
+2024-11-17 17:35:48.932 -05:00 [WRN] No search results found for phrase: Existing News Heading
+2024-11-17 17:35:48.936 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:35:48.937 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:35:48.951 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:35:49.023 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:35:49.023 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:35:49.025 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:35:49.046 -05:00 [INF] HomeController initialized.
+2024-11-17 17:35:49.053 -05:00 [ERR] An error occurred with RequestId: 00-cbfbdf92a807e374151346e899fae56b-f438686f867e1505-00.
+2024-11-17 17:35:49.057 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:35:49.058 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:35:49.061 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:38:59.330 -05:00 [INF] Starting the application
+2024-11-17 17:38:59.330 -05:00 [INF] Starting the application
+2024-11-17 17:38:59.330 -05:00 [INF] Starting the application
+2024-11-17 17:38:59.773 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":1,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:38:59.7343933-05:00","$type":"Suggestion"}
+2024-11-17 17:38:59.773 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":2,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:38:59.7343784-05:00","$type":"Suggestion"}
+2024-11-17 17:38:59.773 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":3,"Content":"First Test Suggestion","DatePosted":"2024-11-17T17:38:59.7343680-05:00","$type":"Suggestion"}
+2024-11-17 17:38:59.783 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":4,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:38:59.7344393-05:00","$type":"Suggestion"}
+2024-11-17 17:38:59.784 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":6,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:38:59.7344180-05:00","$type":"Suggestion"}
+2024-11-17 17:38:59.783 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":5,"Content":"Second Test Suggestion","DatePosted":"2024-11-16T17:38:59.7344516-05:00","$type":"Suggestion"}
+2024-11-17 17:38:59.787 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:38:59.789 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:38:59.789 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:38:59.789 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:38:59.944 -05:00 [INF] Processing file upload: testfile.txt, Size: 20 bytes
+2024-11-17 17:38:59.947 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: testfile.txt
+2024-11-17 17:38:59.960 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD).IntegrationTests\bin\Debug\net8.0\test_uploads
+2024-11-17 17:38:59.961 -05:00 [WRN] File upload attempt without file or with empty file.
+2024-11-17 17:38:59.963 -05:00 [INF] Adding new entity: Article, Data: {"Id":1,"Title":"No File Article","Content":"Article without file","FilePath":null,"$type":"Article"}
+2024-11-17 17:38:59.973 -05:00 [ERR] Error occurred while saving database changes.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+2024-11-17 17:38:59.986 -05:00 [ERR] Error occurred while creating a new article.
+Microsoft.EntityFrameworkCore.DbUpdateException: Required properties '{'FilePath'}' are missing for the instance of entity type 'Article'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Up_To_Date__UTD_.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Data\ApplicationDbContext.cs:line 46
+   at Up_To_Date__UTD_.Controllers.ArticlesController.Create(Article article, IFormFile file) in E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\Controllers\ArticlesController.cs:line 87
+2024-11-17 17:39:00.121 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"16419797-5c47-4e15-8e3b-6f70bd075046","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:39:00.122 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"ce76228f-d419-4fbf-902d-6ac4b955e54c","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:39:00.122 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"9503e2a5-d296-417e-882f-41afe733a6d7","Name":"Admin","NormalizedName":"ADMIN","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:39:00.125 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:39:00.125 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:39:00.125 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:39:00.130 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"bef19259-5be6-467a-8e21-a0287e910166","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:39:00.130 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"83cf5f21-2c05-4f8f-978e-36cfa0bd5f33","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:39:00.131 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:39:00.130 -05:00 [INF] Adding new entity: IdentityRole, Data: {"Id":"2cc57335-3015-43f1-96da-1e14c747c4f7","Name":"Editor","NormalizedName":"EDITOR","ConcurrencyStamp":null,"$type":"IdentityRole"}
+2024-11-17 17:39:00.131 -05:00 [INF] Authorization roles created.
+2024-11-17 17:39:00.131 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:39:00.131 -05:00 [INF] Authorization roles created.
+2024-11-17 17:39:00.131 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:39:00.131 -05:00 [INF] Authorization roles created.
+2024-11-17 17:39:00.158 -05:00 [INF] Roles assigned.
+2024-11-17 17:39:00.158 -05:00 [INF] Roles assigned.
+2024-11-17 17:39:00.158 -05:00 [INF] Roles assigned.
+2024-11-17 17:39:00.689 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:39:00.689 -05:00 [INF] NewsController initialized.
+2024-11-17 17:39:00.695 -05:00 [INF] HomeController initialized.
+2024-11-17 17:39:00.695 -05:00 [INF] Accessed the Privacy page.
+2024-11-17 17:39:00.712 -05:00 [INF] Contents encoded before storing in database to prevent XSS
+2024-11-17 17:39:00.713 -05:00 [INF] Adding new entity: Suggestion, Data: {"Id":7,"Content":"New Test Suggestion","DatePosted":"2024-11-17T17:39:00.7122602-05:00","$type":"Suggestion"}
+2024-11-17 17:39:00.714 -05:00 [INF] Database changes saved successfully.
+2024-11-17 17:39:00.715 -05:00 [INF] New suggestion created with ID: 7, Content: New Test Suggestion
+2024-11-17 17:39:00.718 -05:00 [INF] Search initiated with phrase: Existing News Heading
+2024-11-17 17:39:00.733 -05:00 [WRN] No search results found for phrase: Existing News Heading
+2024-11-17 17:39:00.733 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:39:00.734 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:39:00.743 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:39:00.782 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:39:00.782 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:39:00.782 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:39:00.794 -05:00 [INF] HomeController initialized.
+2024-11-17 17:39:00.806 -05:00 [ERR] An error occurred with RequestId: 00-581fc1126e2e949919d004ebd2a27ece-49b6289862f3e1fd-00.
+2024-11-17 17:39:00.809 -05:00 [INF] SuggestionsController initialized.
+2024-11-17 17:39:00.809 -05:00 [INF] Fetching list of suggestions.
+2024-11-17 17:39:00.810 -05:00 [INF] Total suggestions fetched: 7
+2024-11-17 17:39:00.822 -05:00 [INF] HomeController initialized.
+2024-11-17 17:39:00.822 -05:00 [INF] Accessed the Home page.

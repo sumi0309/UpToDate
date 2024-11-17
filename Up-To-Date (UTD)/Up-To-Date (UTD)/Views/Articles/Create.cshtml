@@ -15,21 +15,21 @@
                 <h3 class="card-title text-center">Add New Article</h3>
             </div>
             <div class="card-body">
-                <form asp-action="Create" enctype="multipart/form-data">
+                <form asp-action="Create" enctype="multipart/form-data" autocomplete="off">
                     <div class="form-group">
                         <label asp-for="Title" class="font-weight-bold">Author Name</label>
-                        <input asp-for="Title" class="form-control" placeholder="Enter article title" required />
+                        <input asp-for="Title" class="form-control" placeholder="Enter article title" required autocomplete="off" />
                         <span asp-validation-for="Title" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label asp-for="Content" class="font-weight-bold">Description</label>
-                        <textarea asp-for="Content" class="form-control" rows="5" placeholder="Enter article content" required></textarea>
+                        <textarea asp-for="Content" class="form-control" rows="5" placeholder="Enter article content" required autocomplete="off"></textarea>
                     </div>
 
                     <div class="form-group">
                         <label class="font-weight-bold">Upload File</label>
-                        <input type="file" name="file" class="form-control-file" required />
+                        <input type="file" name="file" class="form-control-file" required autocomplete="off" />
                     </div>
 
                     <button type="submit" class="btn btn-secondary btn-block mt-3">Submit</button>
@@ -42,7 +42,7 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

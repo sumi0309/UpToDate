@@ -15,19 +15,19 @@
             <div class="card shadow-sm border-0">
                 <div class="card-body">
                     <h4 class="text-secondary mb-4">Edit News</h4>
-                    <form asp-action="Edit">
+                    <form asp-action="Edit" autocomplete="off">
                         <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
-                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="Id" autocomplete="off" />
 
                         <div class="mb-4">
                             <label asp-for="NewsHeading" class="form-label fw-bold">Headline</label>
-                            <textarea asp-for="NewsHeading" class="form-control" rows="2" placeholder="Enter headline here..."></textarea>
+                            <textarea asp-for="NewsHeading" class="form-control" rows="2" placeholder="Enter headline here..." autocomplete="off"></textarea>
                             <span asp-validation-for="NewsHeading" class="text-danger small"></span>
                         </div>
 
                         <div class="mb-4">
                             <label asp-for="NewsDescription" class="form-label fw-bold">Description</label>
-                            <textarea asp-for="NewsDescription" class="form-control" rows="5" placeholder="Enter description here..."></textarea>
+                            <textarea asp-for="NewsDescription" class="form-control" rows="5" placeholder="Enter description here..." autocomplete="off"></textarea>
                             <span asp-validation-for="NewsDescription" class="text-danger small"></span>
                         </div>
 

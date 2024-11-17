@@ -32,12 +32,16 @@ namespace Up_To_Date__UTD_.IntegrationTests.Controllers
         {
             var postData = new FormUrlEncodedContent(new[]
             {
-                new KeyValuePair<string, string>("content", "New Test Suggestion")
-            });
-            var response = await _client.PostAsync("/Suggestions/Create", postData);
+        new KeyValuePair<string, string>("content", "New Test Suggestion")
+    });
+
+            var response = await _client.PostAsync("https://localhost/Suggestions/Create", postData);
+
             response.EnsureSuccessStatusCode();
-            var suggestions = await _client.GetStringAsync("/Suggestions");
+            var suggestions = await _client.GetStringAsync("https://localhost/Suggestions");
+
             suggestions.Should().Contain("New Test Suggestion");
         }
+
     }
 }

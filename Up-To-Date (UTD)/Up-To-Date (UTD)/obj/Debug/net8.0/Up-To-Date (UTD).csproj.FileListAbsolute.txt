@@ -293,6 +293,8 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Az
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Castle.Core.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\FluentAssertions.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Humanizer.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Konscious.Security.Cryptography.Argon2.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Konscious.Security.Cryptography.Blake2.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
@@ -345,6 +347,7 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Mi
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -375,6 +378,18 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Nu
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\NuGet.ProjectModel.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\NuGet.Protocol.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\NuGet.Versioning.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Extensions.Logging.File.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.Async.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.RollingFile.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.CodeDom.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -382,6 +397,7 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Sy
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Composition.Runtime.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Composition.TypedParts.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Drawing.Common.dll
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
@@ -572,19 +588,3 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\re
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\Up-To-Date (UTD).pdb
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\Up-To-Date (UTD).genruntimeconfig.cache
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\ref\Up-To-Date (UTD).dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Extensions.Logging.File.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.Async.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.File.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.RollingFile.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.AspNetCore.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.Console.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Konscious.Security.Cryptography.Argon2.dll
-E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Konscious.Security.Cryptography.Blake2.dll

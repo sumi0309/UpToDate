@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D461F978-34C3-4748-A399-EC5E6B5B6AAC}|Up-To-Date (UTD).IntegrationTests\\Up-To-Date (UTD).IntegrationTests.csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd).integrationtests\\controllers\\suggestionscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D461F978-34C3-4748-A399-EC5E6B5B6AAC}|Up-To-Date (UTD).IntegrationTests\\Up-To-Date (UTD).IntegrationTests.csproj|solutionrelative:up-to-date (utd).integrationtests\\controllers\\suggestionscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|e:\\masters\\enpm680 project\\up-to-date (utd)\\up-to-date (utd)\\controllers\\suggestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90108808-3BBC-4B75-B6C1-FCD1652DB510}|Up-To-Date (UTD)\\Up-To-Date (UTD).csproj|solutionrelative:up-to-date (utd)\\controllers\\suggestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuggestionsControllerTests.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD).IntegrationTests\\Controllers\\SuggestionsControllerTests.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD).IntegrationTests\\Controllers\\SuggestionsControllerTests.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD).IntegrationTests\\Controllers\\SuggestionsControllerTests.cs",
+              "RelativeToolTip": "Up-To-Date (UTD).IntegrationTests\\Controllers\\SuggestionsControllerTests.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T18:11:08.157Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -26,15 +47,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Program.cs",
               "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Program.cs",
               "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Program.cs",
               "RelativeToolTip": "Up-To-Date (UTD)\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T15:22:14.832Z",
+              "WhenOpened": "2024-11-17T18:12:36.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SuggestionsController.cs",
+              "DocumentMoniker": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\SuggestionsController.cs",
+              "RelativeDocumentMoniker": "Up-To-Date (UTD)\\Controllers\\SuggestionsController.cs",
+              "ToolTip": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\Controllers\\SuggestionsController.cs",
+              "RelativeToolTip": "Up-To-Date (UTD)\\Controllers\\SuggestionsController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T18:11:12.132Z",
               "EditorCaption": ""
             }
           ]

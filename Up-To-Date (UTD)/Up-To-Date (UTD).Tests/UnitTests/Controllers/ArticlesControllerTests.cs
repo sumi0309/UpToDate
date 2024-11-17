@@ -30,35 +30,37 @@ namespace Up_To_Date__UTD_.Tests.UnitTests.Controllers
         {
             var context = GetInMemoryDbContext();
             var controller = new ArticlesController(context, "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD).Tests\\wwwroot\\uploads\\");
+
             var article = new Article
             {
                 Title = "New Article",
-                Content = "This is some article content",  
-                FilePath = "" 
+                Content = "This is some article content",
+                FilePath = ""
             };
 
             var fileMock = new Mock<IFormFile>();
             var content = "File content";
-            var fileName = "test.txt";
+            var fileName = "test.pdf";
             var ms = new MemoryStream();
             var writer = new StreamWriter(ms);
             writer.Write(content);
             writer.Flush();
-            ms.Position = 0; 
+            ms.Position = 0;
 
             fileMock.Setup(_ => _.OpenReadStream()).Returns(ms);
             fileMock.Setup(_ => _.FileName).Returns(fileName);
             fileMock.Setup(_ => _.Length).Returns(ms.Length);
+            fileMock.Setup(_ => _.ContentType).Returns("application/pdf"); 
 
             var mockFilePath = $"/uploads/{fileName}";
-            article.FilePath = mockFilePath; 
+            article.FilePath = mockFilePath;
 
-            var result = await controller.Create(article, fileMock.Object); 
+            var result = await controller.Create(article, fileMock.Object);
 
-            var viewResult = Assert.IsType<ViewResult>(result); 
-            var articles = await context.Articles.ToListAsync(); 
-            Assert.Single(articles); 
-            Assert.Equal(mockFilePath, articles[0].FilePath); 
+            var viewResult = Assert.IsType<ViewResult>(result);
+            var articles = await context.Articles.ToListAsync();
+            Assert.Single(articles);
+            Assert.Equal(mockFilePath, articles[0].FilePath);  
         }
     }
 }

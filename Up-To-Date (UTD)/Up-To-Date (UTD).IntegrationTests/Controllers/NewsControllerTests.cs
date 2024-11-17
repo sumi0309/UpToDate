@@ -40,11 +40,11 @@ namespace Up_To_Date__UTD_.IntegrationTests.Controllers
         [Fact]
         public async Task ShowSearchResults_Returns_News_If_Exists()
         {
-            string searchPhrase = "Existing News Heading"; 
-            var response = await _client.PostAsync("/News/ShowSearchResults", new FormUrlEncodedContent(new[]
+            string searchPhrase = "Existing News Heading";
+            var response = await _client.PostAsync("https://localhost/News/ShowSearchResults", new FormUrlEncodedContent(new[]
             {
-                new KeyValuePair<string, string>("SearchPhrase", searchPhrase)
-            }));
+        new KeyValuePair<string, string>("SearchPhrase", searchPhrase)
+    }));
             response.StatusCode.Should().Be(HttpStatusCode.OK);
         }
 

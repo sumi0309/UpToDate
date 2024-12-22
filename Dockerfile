@@ -7,9 +7,9 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Up-To-Date (UTD).csproj", "./Up-To-Date (UTD)/Up-To-Date (UTD)/Up-To-Date (UTD).csproj"]
-RUN dotnet restore "Up-To-Date (UTD).csproj"
+RUN dotnet restore "./Up-To-Date (UTD)/Up-To-Date (UTD)/Up-To-Date (UTD).csproj"
 COPY . .
-RUN dotnet publish "Up-To-Date (UTD).csproj" -c Release -o /app/publish
+RUN dotnet publish "./Up-To-Date (UTD)/Up-To-Date (UTD)/Up-To-Date (UTD).csproj" -c Release -o /app/publish
 
 # Configure the final runtime image
 FROM base AS final

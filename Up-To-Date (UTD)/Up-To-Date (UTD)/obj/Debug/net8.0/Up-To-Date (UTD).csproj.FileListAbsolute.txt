@@ -601,3 +601,7 @@ E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\re
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\Up-To-Date (UTD).pdb
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\Up-To-Date (UTD).genruntimeconfig.cache
 E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\ref\Up-To-Date (UTD).dll
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\bin\Debug\net8.0\Up-To-Date (UTD).staticwebassets.endpoints.json
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\staticwebassets\msbuild.Up-To-Date (UTD).Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

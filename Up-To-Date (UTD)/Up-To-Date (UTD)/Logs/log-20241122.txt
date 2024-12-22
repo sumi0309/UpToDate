@@ -1,0 +1,5 @@
+2024-11-22 12:09:35.369 -05:00 [INF] Starting the application
+2024-11-22 12:09:42.286 -05:00 [INF] Authorization roles created.
+2024-11-22 12:09:42.605 -05:00 [INF] Roles assigned.
+2024-11-22 12:09:45.272 -05:00 [INF] HomeController initialized.
+2024-11-22 12:09:45.275 -05:00 [INF] Accessed the Home page.

@@ -1,0 +1,24 @@
+2024-11-30 19:05:50.980 -05:00 [INF] Starting the application
+2024-11-30 19:05:56.201 -05:00 [INF] Authorization roles created.
+2024-11-30 19:05:56.431 -05:00 [INF] Roles assigned.
+2024-11-30 19:05:58.104 -05:00 [INF] HomeController initialized.
+2024-11-30 19:05:58.105 -05:00 [INF] Accessed the Home page.
+2024-11-30 19:06:00.401 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-30 19:06:00.403 -05:00 [INF] Fetching the list of articles.
+2024-11-30 19:06:14.551 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-30 19:06:14.995 -05:00 [INF] Password verification successful for user: sumiranjaiswal03@gmail.com
+2024-11-30 19:06:15.100 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-30 19:06:15.100 -05:00 [INF] Accessed Create view for new article.
+2024-11-30 19:06:25.589 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-30 19:06:25.612 -05:00 [INF] Processing file upload: Resume-Sumiran Jaiswal.docx, Size: 31322 bytes
+2024-11-30 19:06:25.615 -05:00 [WRN] Invalid file type uploaded. Only PDF files are allowed. File: Resume-Sumiran Jaiswal.docx
+2024-11-30 19:06:31.736 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-30 19:06:31.737 -05:00 [INF] Accessed Create view for new article.
+2024-11-30 19:06:34.342 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-30 19:06:34.343 -05:00 [INF] Fetching the list of articles.
+2024-11-30 19:06:39.083 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-30 19:06:39.102 -05:00 [WRN] File for article ID 19 not found at path E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads/From Struggle to Success.pdf.
+2024-11-30 19:06:41.532 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-30 19:06:41.532 -05:00 [INF] Fetching the list of articles.
+2024-11-30 19:06:44.458 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-30 19:06:44.458 -05:00 [INF] Fetching the list of articles.

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Up-To-Date (UTD).bundle.scp.css",
-      "PackagePath": "staticwebassets\\Up-To-Date (UTD).bundle.scp.css"
+      "PackagePath": "staticwebassets\\Up-To-Date (UTD).85svbuy1w3.bundle.scp.css"
     },
     {
       "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\css\\site.css",
@@ -267,6 +267,10 @@
     {
       "Id": "E:\\Masters\\ENPM680 Project\\Up-To-Date (UTD)\\Up-To-Date (UTD)\\wwwroot\\uploads\\s41586-024-08042-3.pdf",
       "PackagePath": "staticwebassets\\uploads\\s41586-024-08042-3.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Up-To-Date (UTD).Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Up-To-Date (UTD).Microsoft.AspNetCore.StaticWebAssets.props",

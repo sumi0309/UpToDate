@@ -1,0 +1,127 @@
+2024-11-23 11:16:05.189 -05:00 [INF] Starting the application
+2024-11-23 11:16:09.839 -05:00 [INF] Authorization roles created.
+2024-11-23 11:16:10.078 -05:00 [INF] Roles assigned.
+2024-11-23 11:16:11.541 -05:00 [INF] HomeController initialized.
+2024-11-23 11:16:11.545 -05:00 [INF] Accessed the Home page.
+2024-11-23 11:16:29.126 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:16:29.129 -05:00 [INF] Fetching the list of articles.
+2024-11-23 11:21:01.949 -05:00 [INF] Verifying hashed password for user: sumiranjaiswal03@gmail.com
+2024-11-23 11:21:02.616 -05:00 [INF] Password verification successful for user: sumiranjaiswal03@gmail.com
+2024-11-23 11:21:02.740 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:21:02.741 -05:00 [INF] Accessed Create view for new article.
+2024-11-23 11:21:04.813 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:21:04.813 -05:00 [INF] Fetching the list of articles.
+2024-11-23 11:21:05.935 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:21:05.935 -05:00 [INF] Fetching the list of articles.
+2024-11-23 11:21:06.873 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:21:06.873 -05:00 [INF] Accessed Create view for new article.
+2024-11-23 11:21:28.021 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:21:28.030 -05:00 [INF] Processing file upload: From Struggle to Success.pdf, Size: 84389 bytes
+2024-11-23 11:21:28.039 -05:00 [INF] File From Struggle to Success.pdf successfully uploaded to E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads\From Struggle to Success.pdf.
+2024-11-23 11:21:28.090 -05:00 [INF] Adding new entity: Article, Data: {"Id":0,"Title":"test","Content":"test ","FilePath":"/uploads/From Struggle to Success.pdf","$type":"Article"}
+2024-11-23 11:21:28.200 -05:00 [INF] Database changes saved successfully.
+2024-11-23 11:21:28.201 -05:00 [INF] New article created with ID: 19, Title: test
+2024-11-23 11:21:33.370 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:21:33.370 -05:00 [INF] Accessed Create view for new article.
+2024-11-23 11:21:44.252 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:21:44.252 -05:00 [INF] Fetching the list of articles.
+2024-11-23 11:21:46.341 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:21:46.358 -05:00 [INF] User is downloading file for article with ID 19 from path E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads/From Struggle to Success.pdf.
+2024-11-23 11:42:33.215 -05:00 [INF] Starting the application
+2024-11-23 11:42:37.350 -05:00 [INF] Authorization roles created.
+2024-11-23 11:42:37.538 -05:00 [INF] Roles assigned.
+2024-11-23 11:42:38.911 -05:00 [INF] HomeController initialized.
+2024-11-23 11:42:38.913 -05:00 [INF] Accessed the Home page.
+2024-11-23 11:42:44.090 -05:00 [INF] HomeController initialized.
+2024-11-23 11:42:44.090 -05:00 [INF] Accessed the Home page.
+2024-11-23 11:42:44.780 -05:00 [INF] HomeController initialized.
+2024-11-23 11:42:44.781 -05:00 [INF] Accessed the Privacy page.
+2024-11-23 11:42:57.481 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-23 11:42:57.841 -05:00 [INF] Password verification successful for user: sumi0309@umd.edu
+2024-11-23 11:42:57.970 -05:00 [INF] NewsController initialized.
+2024-11-23 11:42:57.989 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-23 11:42:58.096 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-23 11:43:02.787 -05:00 [INF] NewsController initialized.
+2024-11-23 11:43:02.787 -05:00 [INF] Accessed Create view for a new news item.
+2024-11-23 11:43:05.438 -05:00 [INF] NewsController initialized.
+2024-11-23 11:43:05.438 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-23 11:43:05.454 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-23 11:43:10.892 -05:00 [INF] NewsController initialized.
+2024-11-23 11:43:10.904 -05:00 [INF] Displaying details for news item with ID: 1.
+2024-11-23 11:43:12.510 -05:00 [INF] NewsController initialized.
+2024-11-23 11:43:12.510 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-23 11:43:12.519 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-23 11:48:33.323 -05:00 [INF] Starting the application
+2024-11-23 11:48:36.279 -05:00 [INF] Authorization roles created.
+2024-11-23 11:48:36.451 -05:00 [INF] Roles assigned.
+2024-11-23 11:48:37.008 -05:00 [INF] HomeController initialized.
+2024-11-23 11:48:37.009 -05:00 [INF] Accessed the Home page.
+2024-11-23 11:48:49.402 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-23 11:48:49.659 -05:00 [INF] Password verification successful for user: sumi0309@umd.edu
+2024-11-23 11:48:49.757 -05:00 [INF] NewsController initialized.
+2024-11-23 11:48:49.770 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-23 11:48:49.850 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-23 11:49:04.003 -05:00 [INF] NewsController initialized.
+2024-11-23 11:49:04.003 -05:00 [INF] Accessed news search form.
+2024-11-23 11:49:18.873 -05:00 [INF] SuggestionsController initialized.
+2024-11-23 11:49:18.873 -05:00 [INF] Fetching list of suggestions.
+2024-11-23 11:49:18.903 -05:00 [INF] Total suggestions fetched: 3
+2024-11-23 11:49:36.894 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:49:36.895 -05:00 [INF] Fetching the list of articles.
+2024-11-23 11:49:37.818 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 11:49:37.818 -05:00 [INF] Accessed Create view for new article.
+2024-11-23 12:06:45.112 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 12:06:45.112 -05:00 [INF] Fetching the list of articles.
+2024-11-23 12:06:46.501 -05:00 [INF] HomeController initialized.
+2024-11-23 12:06:46.501 -05:00 [INF] Accessed the Home page.
+2024-11-23 14:06:33.653 -05:00 [INF] Starting the application
+2024-11-23 14:06:37.833 -05:00 [INF] Authorization roles created.
+2024-11-23 14:06:38.016 -05:00 [INF] Roles assigned.
+2024-11-23 14:06:39.306 -05:00 [INF] HomeController initialized.
+2024-11-23 14:06:39.309 -05:00 [INF] Accessed the Home page.
+2024-11-23 14:06:46.781 -05:00 [INF] SuggestionsController initialized.
+2024-11-23 14:06:46.781 -05:00 [INF] Fetching list of suggestions.
+2024-11-23 14:06:46.835 -05:00 [INF] Total suggestions fetched: 3
+2024-11-23 14:06:47.813 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 14:06:47.813 -05:00 [INF] Fetching the list of articles.
+2024-11-23 14:06:48.892 -05:00 [INF] SuggestionsController initialized.
+2024-11-23 14:06:48.892 -05:00 [INF] Fetching list of suggestions.
+2024-11-23 14:06:48.908 -05:00 [INF] Total suggestions fetched: 3
+2024-11-23 14:52:36.988 -05:00 [INF] Starting the application
+2024-11-23 14:52:41.189 -05:00 [INF] Authorization roles created.
+2024-11-23 14:52:41.400 -05:00 [INF] Roles assigned.
+2024-11-23 14:52:42.550 -05:00 [INF] HomeController initialized.
+2024-11-23 14:52:42.551 -05:00 [INF] Accessed the Home page.
+2024-11-23 14:52:56.083 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 14:52:56.092 -05:00 [INF] Fetching the list of articles.
+2024-11-23 14:52:57.444 -05:00 [INF] SuggestionsController initialized.
+2024-11-23 14:52:57.444 -05:00 [INF] Fetching list of suggestions.
+2024-11-23 14:52:57.465 -05:00 [INF] Total suggestions fetched: 3
+2024-11-23 18:11:04.056 -05:00 [INF] Starting the application
+2024-11-23 18:11:07.745 -05:00 [INF] Authorization roles created.
+2024-11-23 18:11:08.035 -05:00 [INF] Roles assigned.
+2024-11-23 18:11:10.170 -05:00 [INF] HomeController initialized.
+2024-11-23 18:11:10.174 -05:00 [INF] Accessed the Home page.
+2024-11-23 18:13:20.218 -05:00 [INF] Verifying hashed password for user: sumi0309@umd.edu
+2024-11-23 18:13:20.577 -05:00 [INF] Password verification successful for user: sumi0309@umd.edu
+2024-11-23 18:13:20.719 -05:00 [INF] HomeController initialized.
+2024-11-23 18:13:20.719 -05:00 [INF] Accessed the Home page.
+2024-11-23 18:13:22.375 -05:00 [INF] NewsController initialized.
+2024-11-23 18:13:22.395 -05:00 [INF] Fetching news list. Page number: 1, Page size: 5
+2024-11-23 18:13:22.512 -05:00 [INF] Fetched 5 news items for page 1.
+2024-11-23 18:13:46.456 -05:00 [INF] NewsController initialized.
+2024-11-23 18:13:46.460 -05:00 [INF] Fetching news list. Page number: 2, Page size: 5
+2024-11-23 18:13:46.483 -05:00 [INF] Fetched 5 news items for page 2.
+2024-11-23 18:13:47.651 -05:00 [INF] NewsController initialized.
+2024-11-23 18:13:47.652 -05:00 [INF] Fetching news list. Page number: 3, Page size: 5
+2024-11-23 18:13:47.666 -05:00 [INF] Fetched 1 news items for page 3.
+2024-11-23 18:13:49.599 -05:00 [INF] NewsController initialized.
+2024-11-23 18:13:49.601 -05:00 [INF] Fetching news list. Page number: 2, Page size: 5
+2024-11-23 18:13:49.615 -05:00 [INF] Fetched 5 news items for page 2.
+2024-11-23 18:13:52.732 -05:00 [INF] NewsController initialized.
+2024-11-23 18:13:52.733 -05:00 [INF] Accessed news search form.
+2024-11-23 18:13:53.568 -05:00 [INF] SuggestionsController initialized.
+2024-11-23 18:13:53.569 -05:00 [INF] Fetching list of suggestions.
+2024-11-23 18:13:53.593 -05:00 [INF] Total suggestions fetched: 3
+2024-11-23 18:13:55.390 -05:00 [INF] ArticlesController initialized with path: E:\Masters\ENPM680 Project\Up-To-Date (UTD)\Up-To-Date (UTD)\wwwroot/uploads
+2024-11-23 18:13:55.391 -05:00 [INF] Fetching the list of articles.
